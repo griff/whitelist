@@ -1,0 +1,11 @@
+script:
+  - ./combined.sh
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - ./ci/sign.sh
+  on:
+    repo: 'griff/whitelist'
+    branch: master

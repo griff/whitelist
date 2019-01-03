@@ -1,0 +1,68 @@
+# 2004-06-29: rr.com (no retry, reported by Duncan Hill)
+/^ms-smtp.*\.rr\.com$/
+# 2004-06-29: cox.net (no retry, reported by Duncan Hill)
+/^lake.*mta.*\.cox\.net$/
+# 2004-07-01: verizon.net (address verification, reported by Bill Moran and Eric, adapted by Adam C. Mathews)
+/^s[cv]\d+pub\.verizon\.net$/
+# 2004-07-02: telekom.de (slow: 6 hours)
+/^mail\d+\.telekom\.de$/
+# 2004-07-04: tiscali.dk (slow: 12 hours, reported by Klaus Alexander Seistrup)
+/^smtp\d+\.tiscali\.dk$/
+# 2004-09-08: intel.com (pool on different subnets)
+/^fmr\d+\.intel\.com$/
+# 2004-09-17: cox-internet.com (no retry, reported by Rod Roark)
+/^fe\d+\.cox-internet\.com$/
+# 2005-11-11: lufthansa (no retry, reported by Peter Bieringer)
+/^gateway\d+\.np4\.de$/
+# 2005-11-23: arcor-online.net (slow: 12 hours, reported by Bernd Zeimetz)
+/^mail-in-\d+\.arcor-online\.net$/
+# mailgw*.iai.co.il (pool of several servers, reported by Vito Robar)
+/^mailgw.*\.iai\.co\.il$/
+# mail*.usafisnews.org (no retry, reported by Vito Robar)
+/^mail\d+\.usafisnews\.org$/
+# odk.fdv.uni-lj.si (no retry, reported by Vito Robar)
+/^odk.fdv.uni-lj.si$/
+# mta?.siol.net (sometimes no or slow retry; they use intermail, reported by Vito Robar)
+/^mta[12].siol.net$/
+# pim-N-N.quickinspirationsmail.com (unique sender, reported by Vito Robar)
+/^pim-\d+-\d+\.quickinspirationsmail\.com$/
+# wxs.nl (no retry, reported by Johannes Fehr)
+/^p?smtp.*\.wxs\.nl$/
+# orange.fr (big pool, reported by Loïc Le Loarer)
+/^smtp\d+\.orange\.fr$/
+# citigroup.com (slow retry, reported by Michael Monnerie)
+/^smtp\d+.citigroup.com$/
+# pi.ws (pool + long retry, Debian #409851)
+/^mail[12]\.pi\.ws$/
+# free.fr (big pool, reported by Denis Sacchet)
+/^smtp[0-9]+-g[0-9]+\.free\.fr$/
+/^postfix[0-9]+-g[0-9]+\.free\.fr$/
+# thehartford.com (pool + long retry, reported by Jacob Leifman)
+/^netmail\d+\.thehartford\.com$/
+# abb.com (only one retry, reported by Roman Plessl)
+/^nse\d+\.abb\.com$/
+# 2007-09-06: qualiflow.com (no retry, reported by Alex Beckert)
+/^mail\d+\.msg\.oleane\.net$/
+# 2007-10-18: inode.at (long retry, reported by Johannes Feigl)
+/^mx\d+\..*\.inode\.at$/
+# 2008-02-01: bol.com (no retry, reported by Frank Breedijk)
+/^.*?.server.arvato-systems.de$/
+# 2008-06-05: registeredsite.com (no retry, reported by Fred Kilbourn)
+/^(?:mail|fallback-mx)\d+.atl.registeredsite.com$/
+# 2008-11-07: facebook (no retry, reported by Tim Freeman)
+/^outmail\d+\.sctm\.tfbnw\.net$/
+# 2009-08-19: 126.com (big pool)
+/^m\d+-\d+\.126\.com$/
+# 2010-03-17: chello.at (big pool, reported by Jan-willem van Eys)
+/^viefep\d+-int\.chello\.at$/
+# 2011-02-04: evanzo-server.de (no retry, reported by Andre Hoepner)
+/^mx.*\.evanzo-server\.de$/
+# 2013-12-18: orange.fr (big pool, reported by fulax)
+/^smtp\d+\.smtpout\.orange\.fr$/
+# 2014-12-18: mail.ru (retries from fallback*.mail.ru, reported by Andriy Yurchuk)
+/^fallback\d+\.mail\.ru$/
+/^fallback\d+\.m\.smailru\.net$/
+# 2015-06-10: magisto.com (requested by postmaster)
+/^o\d+\.ntdc\.magisto\.com$/
+# 2017-06-07: evanzo-server.de (no retry, reported by Patrick Terlisten)
+/^smarthost.*\.evanzo-server\.de$/
