@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -o errexit
 set -v
 
@@ -8,8 +8,8 @@ sign_file() {
 }
 check_file() {
   local file="$1"
-  local base="$(basename $file)"
-  if [ -f "$file" ] && [ -s "$file" ] && [ "$(basename -s .pub $file)" == "$base" ] && [ "$(basename -s .sig $file)" == "$base" ]; then
+  local base="$(basename "$file")"
+  if [ -f "$file" ] && [ -s "$file" ] && [ "$(basename -s .pub "$file")" == "$base" ] && [ "$(basename -s .sig "$file")" == "$base" ]; then
     sign_file "$file"
   else
     echo "Ignoring file $file"
