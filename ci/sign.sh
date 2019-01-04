@@ -16,9 +16,11 @@ check_file() {
   fi
 }
 
-for k in output/* ; do
-  check_file "$k"
-done
-for k in output/individual/* ; do
-  check_file "$k"
-done
+if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]] ; then
+  for k in output/* ; do
+    check_file "$k"
+  done
+  for k in output/individual/* ; do
+    check_file "$k"
+  done
+fi

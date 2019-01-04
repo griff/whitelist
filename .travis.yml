@@ -5,9 +5,9 @@ install:
 
 script:
   - nix-shell --run ./combined.sh
-
-before_deploy:
   - nix-shell --run ./ci/decrypt.sh
+  - nix-shell --run ./ci/sign.sh
+
 deploy:
   provider: script
   skip_cleanup: true
