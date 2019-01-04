@@ -7,14 +7,11 @@ script:
   - nix-shell --run ./combined.sh
 
 before_deploy:
-  - if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]] ; then
-      nix-shell --run ./ci/decrypt.sh ;
-    fi
+  - nix-shell --run ./ci/decrypt.sh
 deploy:
   provider: script
   skip_cleanup: true
-  script:
-    - nix-shell --run ./ci/deploy.sh
+  script: nix-shell --run ./ci/deploy.sh
   on:
     repo: 'griff/whitelist'
     branch: master
