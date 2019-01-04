@@ -5,6 +5,6 @@ in
   stdenv.mkDerivation {
     name = "whitelist";
     buildInputs = [
-      rspamd jq curl bash
+      rspamd jq curl bash openssl rsync openssh
     ];
   }
