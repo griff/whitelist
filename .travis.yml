@@ -8,7 +8,7 @@ script:
 
 before_deploy:
   - if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]] ; then
-      ./ci/decrypt.sh ;
+      nix-shell --run ./ci/decrypt.sh ;
     fi
 deploy:
   provider: script
