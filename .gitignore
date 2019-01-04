@@ -1,3 +1,5 @@
 /.fakegrant/
 /.vagrant/
 /output/
+/id_ed25519
+/keypair.ucl
