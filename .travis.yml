@@ -2,6 +2,7 @@ language: nix
 
 install:
   - echo 'xev.maven-group.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHPMomsIMLn7UXwmS1Ghm9Q8eCyrDbBcMA8ik3AvCwin' >> $HOME/.ssh/known_hosts
+  - nix-shell --command "echo Hello"
 
 script:
   - nix-shell --run ./combined.sh
