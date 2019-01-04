@@ -9,6 +9,4 @@ if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]] ; then
   ssh-add /tmp/id_ed25519
 fi
 chmod 600 $HOME/.ssh/config
-ls -la $HOME/.ssh/
-cat $HOME/.ssh/config
-rsync -rli --progress --checksum output/ brian@xev.maven-group.org:/data/xev-files.maven-group.org/whitelist/
+rsync -rli --progress --checksum output/ brian@xev.maven-group.org:.
