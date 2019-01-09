@@ -2,6 +2,10 @@
 set -o errexit
 set -v
 
+if [ -z "$OUT" ]; then
+  export OUT=site/lists
+fi
+
 sign_file() {
   echo "Signing file: $1"
   rspamadm signtool -k keypair.ucl --pubout $1.pub $1
@@ -16,11 +20,11 @@ check_file() {
   fi
 }
 
-if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]] ; then
-  for k in output/* ; do
+if [[ -f "keypair.ucl" ]] ; then
+  for k in $OUT/* ; do
     check_file "$k"
   done
-  for k in output/individual/* ; do
+  for k in $OUT/individual/* ; do
     check_file "$k"
   done
 fi

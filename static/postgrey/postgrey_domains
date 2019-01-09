@@ -1,3 +1,8 @@
+# Postgrey: a Postfix Greylisting Policy Server
+# Copyright (c) 2004-2007 ETH Zurich
+# Copyright (c) 2007 Open Systems AG, Switzerland
+# released under the GNU General Public License
+
 # 2004-06-29: rr.com (no retry, reported by Duncan Hill)
 rr.com
 # 2004-06-29: cox.net (no retry, reported by Duncan Hill)

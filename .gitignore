@@ -3,3 +3,6 @@
 /output/
 /id_ed25519
 /keypair.ucl
+/site/_site/
+/site/lists/
+/site/index.md

@@ -1,3 +1,8 @@
+# Postgrey: a Postfix Greylisting Policy Server
+# Copyright (c) 2004-2007 ETH Zurich
+# Copyright (c) 2007 Open Systems AG, Switzerland
+# released under the GNU General Public License
+
 # 2004-07-02: papersinvited.com (no retry)
 66.216.126.174
 # mail.likopris.si (no retry, reported by Vito Robar)
