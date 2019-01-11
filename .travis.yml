@@ -10,7 +10,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local-dir: site/_site/
+  local-dir: site/
   fqdn: whitelist.maven-group.org
   on:
     branch: master

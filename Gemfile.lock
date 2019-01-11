@@ -279,11 +279,10 @@ DEPENDENCIES
   html-proofer
   jekyll-avatar (>= 0.6.0)
   jekyll-octicons
-  jekyll-theme-midnight
   parallel
   rake
   rubocop
   typhoeus
 
 BUNDLED WITH
-   1.16.2
+   1.16.3

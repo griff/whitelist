@@ -2,9 +2,8 @@
 
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages'
 gem 'jekyll-octicons'
-gem 'jekyll-theme-midnight'
 # need lazy-load support
 gem 'jekyll-avatar', '>= 0.6.0'
 

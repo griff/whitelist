@@ -5,5 +5,9 @@ export OUT="site/lists"
 ./ci/sign.sh
 
 cp README.md site/index.md
-cd site
+cd site/lists
+zip ../lists.zip *
+tar zcvf ../lists.tar.gz *
+cd ..
 jekyll b
+rm -rf .sass-cache _site
