@@ -1,7 +1,6 @@
 language: nix
 
 install:
-  - echo 'xev.maven-group.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHPMomsIMLn7UXwmS1Ghm9Q8eCyrDbBcMA8ik3AvCwin' >> $HOME/.ssh/known_hosts
   - nix-shell --command "echo Hello"
 
 script:
@@ -11,7 +10,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local-dir: site/
+  local-dir: site/_site/
   fqdn: whitelist.maven-group.org
   on:
     branch: master

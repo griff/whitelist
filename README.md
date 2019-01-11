@@ -62,7 +62,7 @@ lists while verifying signatures and updating them every 7 days.
 whitelisted_ip {
   name = "Whitelisted IPs";
   urls = [
-    "sign+key=f7m4jxua6iwtw5966bhfhxqw6xid758nn6putwb51gum9gmzbeqy+https://whitelist.maven-group.org/combined_ip"
+    "sign+key=f7m4jxua6iwtw5966bhfhxqw6xid758nn6putwb51gum9gmzbeqy+https://whitelist.maven-group.org/lists/combined_ip"
   ];
   poll_time = 7d;
 }
@@ -70,7 +70,7 @@ whitelisted_ip {
 whitelist_domains_url {
   name = "Whitelisted Domains";
   urls = [
-    "sign+key=f7m4jxua6iwtw5966bhfhxqw6xid758nn6putwb51gum9gmzbeqy+https://whitelist.maven-group.org/combined_rspamd_domains"
+    "sign+key=f7m4jxua6iwtw5966bhfhxqw6xid758nn6putwb51gum9gmzbeqy+https://whitelist.maven-group.org/lists/combined_rspamd_domains"
   ];
   poll_time = 7d;
 }
