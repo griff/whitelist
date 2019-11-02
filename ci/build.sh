@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -o errexit
+set -v
 
 export OUT="site/lists"
 ./combined.sh
