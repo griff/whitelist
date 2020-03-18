@@ -21,6 +21,7 @@ check_file() {
 }
 
 if [[ -f "keypair.ucl" ]] ; then
+  rspamadm --version
   shasum keypair.ucl
   for k in $OUT/* ; do
     check_file "$k"
