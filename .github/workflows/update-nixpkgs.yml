@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: 'echo "Event: ${{ github.event_name }}"'
+    - run: 'echo "Action: ${{ github.event.action }}"'
     - run: 'cat "${{ github.event_path }}"'
   update:
     runs-on: ubuntu-latest
