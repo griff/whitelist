@@ -7,6 +7,6 @@ in
     name = "whitelist";
 
     buildInputs = [
-      rspamd jq curl bash openssl rsync openssh bundix site
+      ruby.devEnv zip rspamd jq curl bash openssl rsync openssh bundix site
     ];
   }

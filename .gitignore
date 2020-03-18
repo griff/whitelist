@@ -5,5 +5,8 @@
 /keypair.ucl
 /site/_site/
 /site/lists/
+/site/lists.tar.gz
+/site/lists.zip
 /site/index.md
 /site/.sass-cache/
+/vendor/

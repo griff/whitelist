@@ -1,0 +1,23 @@
+name: "Build and deploy"
+on:
+  push:
+  pull_request:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v7
+    - name: "Install dependencies"
+      run: nix-shell --command "echo Hello"
+    - name: Build
+      env:
+        GPG_SECRETS_PASSWORD: ${{ secrets.GPG_SECRETS_PASSWORD }}
+      run: nix-shell --run ./ci/build.sh
+    - name: Deploy pages 🚀
+      if: 'github.ref == "master"'
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: site # The folder the action should deploy.
