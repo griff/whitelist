@@ -15,7 +15,7 @@ jobs:
         GPG_SECRETS_PASSWORD: ${{ secrets.GPG_SECRETS_PASSWORD }}
       run: nix-shell --run ./ci/build.sh
     - name: Deploy pages 🚀
-      if: 'github.ref == "master"'
+      if: "github.ref == 'master'"
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
