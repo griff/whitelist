@@ -6,10 +6,16 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: webfactory/ssh-agent@v0.2.0
+      with:
+        ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+    - name: Checkout via SSH
+      run: git clone git@github.com:griff/whitelist.git .
+
     - uses: cachix/install-nix-action@v7
     - run: 'nix-shell update.nix --command "echo Hello"'
     - run: nix-shell update.nix --run ci/update.sh
+
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
