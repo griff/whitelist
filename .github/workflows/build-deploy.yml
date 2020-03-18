@@ -10,12 +10,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v7
-    - name: "Install dependencies"
+    - name: "Debug if"
       env:
         MY_REF: ${{ github.ref }}
-      run: |
-        echo $MY_REF
-        nix-shell --command "echo Hello"
+      run: echo $MY_REF
+    - name: "Install dependencies"
+      run: nix-shell --command "echo Hello"
     - name: Build
       env:
         GPG_SECRETS_PASSWORD: ${{ secrets.GPG_SECRETS_PASSWORD }}
