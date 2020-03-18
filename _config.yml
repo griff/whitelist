@@ -1,0 +1,19 @@
+plugins:
+  - github-pages
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+theme: jekyll-theme-hacker
+show_downloads: true
+github:
+  zip_url: /lists.zip
+  tar_url: /lists.tar.gz
+optional_front_matter:
+  remove_originals: true
