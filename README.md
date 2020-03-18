@@ -1,4 +1,4 @@
-# Whitelists for email grey listing [![Build Status](https://github.com/griff/whitelist/workflows/Build%20and%20deploy/badge.svg)](https://github.com/griff/whitelist/actions?query=workflow%3A%22Build+and+deploy%22)
+# Whitelists for email grey listing [![Build Status](https://github.com/griff/whitelist/workflows/Build%20and%20deploy/badge.svg)](https://github.com/griff/whitelist/actions?query=branch%3Amaster+workflow%3A%22Build+and+deploy%22)
 
 
 ## Static Lists
