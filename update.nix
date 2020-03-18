@@ -1,5 +1,8 @@
 let
-  nixpkgs = import <nixpkgs> {};
+  sources = import ./nix/sources.nix;
+  nixpkgs = import sources.nixpkgs {
+    overlays = [ (self: super: { niv = (import sources.niv {}).niv; }) ];
+  };
 in
   with nixpkgs;
   stdenv.mkDerivation {
@@ -7,6 +10,6 @@ in
 
     buildInputs = [
       ruby.devEnv pkgconfig
-      curl bash openssl rsync openssh bundix
+      curl bash openssl rsync openssh bundix niv
     ];
   }

@@ -1,5 +1,8 @@
 let
-  nixpkgs = import <nixpkgs> {};
+  sources = import ./nix/sources.nix;
+  nixpkgs = import sources.nixpkgs {
+    overlays = [ (self: super: { niv = (import sources.niv {}).niv; }) ];
+  };
   site = nixpkgs.callPackage ./site.nix {};
 in
   with nixpkgs;
