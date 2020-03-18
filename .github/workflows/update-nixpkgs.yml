@@ -6,6 +6,7 @@ on:
 jobs:
   debug:
     runs-on: ubuntu-latest
+    steps:
     - run: |
       echo "Event: ${{ github.event_name }}"
       cat ${{ github.event_path }}
