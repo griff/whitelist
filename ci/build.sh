@@ -8,7 +8,6 @@ export OUT="site/lists"
 ./ci/sign.sh
 
 cp README.md site/index.md
-echo "whitelist.maven-group.org" > site/CNAME
 cd site/lists
 zip ../lists.zip *
 tar zcvf ../lists.tar.gz *
