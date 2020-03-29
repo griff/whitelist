@@ -126,10 +126,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "11yn7mhi4rl24brs2qfwysas14csjf1zmb835cfklqz5ka032xp6";
+      sha256 = "0wwks9652xwgjm7yszcq5xr960pjypc07ivwzbjzpvy9zh2fw6iq";
       type = "gem";
     };
-    version = "1.0.0";
+    version = "1.0.1";
   };
   ffi = {
     groups = ["default" "development" "test"];
@@ -198,10 +198,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0krd80ga7qcms469l55jbm711a7ph2lmyn88l929nhbxc7sgm81g";
+      sha256 = "1b7wx2hnwnml3y10x6yxybl3hy973n2ifq3hbqh0jd72bqs615wp";
       type = "gem";
     };
-    version = "3.15.1";
+    version = "3.15.2";
   };
   "http_parser.rb" = {
     source = {
@@ -716,10 +716,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1icwm60f91df4aa0yjlqhlajmb647pwcncl459jw96c1qrz9snfz";
+      sha256 = "0zvfr9njmj5svi39fcsi2b0g7pcxb0vamw9dlyas8bg814jlzhi6";
       type = "gem";
     };
-    version = "4.17.0";
+    version = "4.18.0";
   };
   parallel = {
     groups = ["development" "test"];
@@ -831,12 +831,14 @@
   };
   ruby-enum = {
     dependencies = ["i18n"];
+    groups = ["default"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0h62avini866kxpjzqxlqnajma3yvj0y25l6hn9h2mv5pp6fcrhx";
+      sha256 = "0d3dyx2z41zd6va9dwn3q8caf710vzdaf57xspc0y17aqmnprwnw";
       type = "gem";
     };
-    version = "0.7.2";
+    version = "0.8.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
