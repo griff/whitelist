@@ -29,3 +29,5 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: schedule/update-nixpkgs
         branch-suffix: timestamp
+        commit-message: '[update-nixpkgs] automated change'
+        title: Automatic Nixpkgs update

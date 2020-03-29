@@ -29,3 +29,5 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: schedule/update-gems
         branch-suffix: timestamp
+        commit-message: '[update-ruby-gems] automated change'
+        title: Automatic Ruby gems update
