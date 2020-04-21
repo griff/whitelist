@@ -737,10 +737,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "07awrcwm2xibglrh7qwpj24vwzn9p64m7bmfr9xbrlffaznr0ii7";
+      sha256 = "1zbjlzmzlja7dq83iwx2cl1mcpx8p1znhy6bgxfi9sqj2rbpyb9k";
       type = "gem";
     };
-    version = "2.7.1.0";
+    version = "2.7.1.1";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -824,10 +824,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0chdx3mxhcd7hp4zkf6xarfhyik8a8jj8imvpbqlwfng79fzc7rx";
+      sha256 = "0pyjx2lbai93p6q3w57cxdhlcwhxfvm299xqicgarhdrv73mnv1d";
       type = "gem";
     };
-    version = "0.81.0";
+    version = "0.82.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
