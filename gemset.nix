@@ -737,10 +737,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1zbjlzmzlja7dq83iwx2cl1mcpx8p1znhy6bgxfi9sqj2rbpyb9k";
+      sha256 = "1xgsl3dvmidvr1y4lp63m5avjxykl2gradgav8xfp5z86rfqhpr0";
       type = "gem";
     };
-    version = "2.7.1.1";
+    version = "2.7.1.2";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -780,12 +780,14 @@
     version = "13.0.1";
   };
   rb-fsevent = {
+    groups = ["default"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1lm1k7wpz69jx7jrc92w3ggczkjyjbfziq5mg62vjnxmzs383xx8";
+      sha256 = "1k9bsj7ni0g2fd7scyyy1sk9dy2pg9akniahab0iznvjmhn54h87";
       type = "gem";
     };
-    version = "0.10.3";
+    version = "0.10.4";
   };
   rb-inotify = {
     dependencies = ["ffi"];
