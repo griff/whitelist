@@ -136,10 +136,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "10lfhahnnc91v63xpvk65apn61pib086zha3z5sp1xk9acfx12h4";
+      sha256 = "1y9y4pkfbjvzp7fdvikz5nxccan8v1x0ppb18a5333v0z3pv3y86";
       type = "gem";
     };
-    version = "1.12.2";
+    version = "1.13.0";
   };
   forwardable-extended = {
     source = {
@@ -165,10 +165,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0srk5f5wl08rlalh1m85ba963hl4myxqiin8l38yv41lahij7qhg";
+      sha256 = "1n81dvdvh3yx3z0jym39v81vq8dic3h9gyxrb2r79bwf3x6bnim9";
       type = "gem";
     };
-    version = "204";
+    version = "206";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -187,10 +187,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1x5i330yks7pb1jxcbm9n6gslkgaqhyvl13d0cqxmxzkcajvb7z4";
+      sha256 = "01snn9z3c2p17d9wfczkdkml6mdffah6fpyzgs9mdskb14m68rq6";
       type = "gem";
     };
-    version = "2.12.3";
+    version = "2.13.0";
   };
   html-proofer = {
     dependencies = ["addressable" "mercenary" "nokogumbo" "parallel" "rainbow" "typhoeus" "yell"];
@@ -226,10 +226,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1nn2sc308l2mz0yiall4r90l6vy67qp4sy9zapi73a948nd4a5k3";
+      sha256 = "13gi6v6ib925v9r0w3a3dqvbhj9rrwbbpkr3slisfxwpwy6k0kyp";
       type = "gem";
     };
-    version = "3.8.5";
+    version = "3.8.7";
   };
   jekyll-avatar = {
     dependencies = ["jekyll"];
@@ -727,10 +727,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1xgsl3dvmidvr1y4lp63m5avjxykl2gradgav8xfp5z86rfqhpr0";
+      sha256 = "162122h7vkg9crc9gsjwpy6bjrwg9r8ghhimwk952i5rrln3kird";
       type = "gem";
     };
-    version = "2.7.1.2";
+    version = "2.7.1.3";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -805,10 +805,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1y90nx9ph9adnrpcsvs2adca2l3dyz8am2d2kzxkwd3a086ji7aw";
+      sha256 = "102rc07d78k5bkl0s9nd1gw6wz0w0zcvg4g5sl7z9xxi4r793c35";
       type = "gem";
     };
-    version = "3.13.0";
+    version = "3.19.0";
   };
   rubocop = {
     dependencies = ["parallel" "parser" "rainbow" "rexml" "rubocop-ast" "ruby-progressbar" "unicode-display_width"];
