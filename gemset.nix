@@ -22,12 +22,14 @@
     version = "2.7.0";
   };
   ast = {
+    groups = ["default" "development" "test"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "184ssy3w93nkajlz2c70ifm79jp3j737294kbc5fjw69v1w0n9x7";
+      sha256 = "1l3468czzjmxl93ap40hp7z94yxp4nbag0bxqs789bm30md90m2a";
       type = "gem";
     };
-    version = "2.4.0";
+    version = "2.4.1";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -136,10 +138,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1y9y4pkfbjvzp7fdvikz5nxccan8v1x0ppb18a5333v0z3pv3y86";
+      sha256 = "12lpwaw82bb0rm9f52v1498bpba8aj2l2q359mkwbxsswhpga5af";
       type = "gem";
     };
-    version = "1.13.0";
+    version = "1.13.1";
   };
   forwardable-extended = {
     source = {
@@ -330,10 +332,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "16mfdmmvp8x8xllyhp6iwk3va81ysh8d4gflr3y6r2431hvc69cg";
+      sha256 = "0v2by0sm4fsw9n68izg1issk2n1c2z1skkihnxas0q6azvx5dvry";
       type = "gem";
     };
-    version = "9.6.0";
+    version = "10.0.0";
   };
   jekyll-optional-front-matter = {
     dependencies = ["jekyll"];
@@ -695,10 +697,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vi5g6qqymyz43wy75z6zjb15yg645m6fwlc05v9ch3rr7wvs251";
+      sha256 = "0mawzkm8m6m2f48il3wn96n8q7rxpx2g10vdvig1drii05xgyjky";
       type = "gem";
     };
-    version = "9.6.0";
+    version = "10.0.0";
   };
   octokit = {
     dependencies = ["faraday" "sawyer"];
