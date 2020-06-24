@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v7
+    - uses: cachix/install-nix-action@v10
     - name: "Debug if"
       env:
         MY_REF: ${{ github.ref }}
@@ -21,7 +21,7 @@ jobs:
         GPG_SECRETS_PASSWORD: ${{ secrets.GPG_SECRETS_PASSWORD }}
       run: nix-shell --run ./ci/build.sh
     - name: Install SSH Client 🔑
-      uses: webfactory/ssh-agent@v0.2.0
+      uses: webfactory/ssh-agent@v0.4.0
       with:
         ssh-private-key: ${{ secrets.DEPLOY_KEY }}
     - name: Deploy pages 🚀
