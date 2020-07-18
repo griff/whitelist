@@ -44,19 +44,21 @@ format supported by the `whitelist_domains_url` option for the
 
 ## Rspamd configuration
 
+### Rspamd versions older than 2.0
+
 Rspamd supports having map files signed so that you can verify the authenticity
 of the files and so as part of the build process all the different whitelists
 provided here are signed with the same key.
 
 As a help if you put the the below configuration in a file at
-`${LOCAL_CONFDIR}/local.d/greylist.conf`, where `${LOCAL_CONFDIR}` typically is
+`${LOCAL_CONFDIR}/override.d/greylist.conf`, where `${LOCAL_CONFDIR}` typically is
 `/etc/rspamd` it will setup Rspamd to use the
 [combined_ip](https://whitelist.maven-group.org/lists/combined_ip) and
 [combined_rspamd_domains](https://whitelist.maven-group.org/lists/combined_rspamd_domains)
 lists while verifying signatures and updating them every 7 days.
 
 ```
-# ${LOCAL_CONFDIR}/local.d/greylist.conf
+# ${LOCAL_CONFDIR}/override.d/greylist.conf
 
 whitelisted_ip {
   name = "Whitelisted IPs";
@@ -69,13 +71,49 @@ whitelisted_ip {
 whitelist_domains_url {
   name = "Whitelisted Domains";
   urls = [
-    "sign+key=f7m4jxua6iwtw5966bhfhxqw6xid758nn6putwb51gum9gmzbeqy+https://whitelist.maven-group.org/lists/combined_rspamd_domains"
+    "sign+key=f7m4jxua6iwtw5966bhfhxqw6xid758nn6putwb51gum9gmzbeqy+https://whitelist.maven-group.org/lists/combined_rspamd_domains",
+    "$LOCAL_CONFDIR/local.d/greylist-whitelist-domains.inc",
+    "$LOCAL_CONFDIR/local.d/maps.d/greylist-whitelist-domains.inc",
   ];
   poll_time = 7d;
 }
 
 ```
 
+
+### Rspamd 2.0 or later
+
+Rspamd supports loading map files directly using HTTP and so as a help if you
+put the the below configuration in a file at
+`${LOCAL_CONFDIR}/override.d/greylist.conf`, where `${LOCAL_CONFDIR}` typically is
+`/etc/rspamd` it will setup Rspamd to use the
+[combined_ip](https://whitelist.maven-group.org/lists/combined_ip) and
+[combined_rspamd_domains](https://whitelist.maven-group.org/lists/combined_rspamd_domains)
+lists and updating them every 7 days.
+
+
+```
+# ${LOCAL_CONFDIR}/override.d/greylist.conf
+
+whitelisted_ip {
+  name = "Whitelisted IPs";
+  urls = [
+    "https://whitelist.maven-group.org/lists/combined_ip"
+  ];
+  poll_time = 7d;
+}
+
+whitelist_domains_url {
+  name = "Whitelisted Domains";
+  urls = [
+    "https://whitelist.maven-group.org/lists/combined_rspamd_domains",
+    "$LOCAL_CONFDIR/local.d/greylist-whitelist-domains.inc",
+    "$LOCAL_CONFDIR/local.d/maps.d/greylist-whitelist-domains.inc",
+  ];
+  poll_time = 7d;
+}
+
+```
 
 [postgrey]: http://postgrey.schweikert.ch
 [rspamd]: https://www.rspamd.com/
