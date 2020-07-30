@@ -46,7 +46,7 @@ format supported by the `whitelist_domains_url` option for the
 ## Rspamd configuration
 
 Rspamd supports loading map files directly using HTTP and in older versions
-supported having these remote files digitally signed so you could verify they
+supported having these remote files digitally signed so you could verify their
 authenticity.
 
 ### Rspamd versions older than 2.0
