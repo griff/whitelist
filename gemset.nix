@@ -88,12 +88,14 @@
   };
   em-websocket = {
     dependencies = ["eventmachine" "http_parser.rb"];
+    groups = ["default"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1bsw8vjz0z267j40nhbmrvfz7dvacq4p0pagvyp17jif6mj6v7n3";
+      sha256 = "1mg1mx735a0k1l8y14ps2mxdwhi5r01ikydf34b0sp60v66nvbkb";
       type = "gem";
     };
-    version = "0.5.1";
+    version = "0.5.2";
   };
   ethon = {
     dependencies = ["ffi"];
@@ -743,10 +745,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1030znhvhkfn39svwbj6qn4xb6hgl94gnvg57k4d3r76f9bryqmn";
+      sha256 = "0vlnnw46mim4hwi44wdmgq8dmmfypxg2cj06a64zwksbw55pki6l";
       type = "gem";
     };
-    version = "2.7.1.4";
+    version = "2.7.1.5";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -811,10 +813,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "106azpr2c280y2f8jnr6fd49q1abb43xh9hhgbxc4d4kvzpa8094";
+      sha256 = "11jzci0dajxxd6sq1q8zxg70j468ryr0miz28kp2v7si0ax4k6yb";
       type = "gem";
     };
-    version = "1.7.1";
+    version = "1.8.0";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -842,21 +844,21 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1w4cqlw3zq4n5bp2x06v0anj80f8ijpip361qyhww4fygp7klgcx";
+      sha256 = "0jrfcxs7qm2jamh44djz322c8xpg8zyllg6xyk0r0qnvk71dwlrn";
       type = "gem";
     };
-    version = "0.90.0";
+    version = "0.92.0";
   };
   rubocop-ast = {
-    dependencies = ["parser"];
+    dependencies = ["parser" "strscan"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "12sr4v7vb726dc5xakpw5z0pdvxgbs7x29k2vi6v5m1yj2vv1b31";
+      sha256 = "0sh7kr94aip82mr30zh2c51wsxk8vzwwmq4nxvq997nlzy8mnvil";
       type = "gem";
     };
-    version = "0.4.0";
+    version = "0.7.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
@@ -940,6 +942,16 @@
       type = "gem";
     };
     version = "0.1.1";
+  };
+  strscan = {
+    groups = ["default" "development" "test"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0j6g7figwf7jdyv7x48z4jpyzlvil00ymgh6g6ra93arg9kzfs26";
+      type = "gem";
+    };
+    version = "1.0.3";
   };
   terminal-table = {
     dependencies = ["unicode-display_width"];
