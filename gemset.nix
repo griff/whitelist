@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1dmkqbvndbz011a1byg6f990936vfadbnwjwjw9vjzr4kd8bxk96";
+      sha256 = "1axidc4mikgi4yxs0ynw2c54jyrs5lxprxmzv6m3aayi9rg6rk5j";
       type = "gem";
     };
-    version = "6.0.3.3";
+    version = "6.0.3.4";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -169,10 +169,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1g0pg1r18bfcdxgfmwwjqrqv270ky46k78pla4fawvwswwmxpjcp";
+      sha256 = "08jdjxs0x3x54vy5c98nplpa23c290z0pai3gbx3h3m197wqbsra";
       type = "gem";
     };
-    version = "208";
+    version = "209";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -292,10 +292,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1mgc1ik2cq2g8g7z9ql2i6ydzy771m2i4qrd1q77x8cf2sprlb0z";
+      sha256 = "1zxqkrnix0xiw98531h5ga6h69jhzlx2jh9qhvcl67p8nq3sgza9";
       type = "gem";
     };
-    version = "0.15.0";
+    version = "0.15.1";
   };
   jekyll-gist = {
     dependencies = ["octokit"];
@@ -747,10 +747,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vlnnw46mim4hwi44wdmgq8dmmfypxg2cj06a64zwksbw55pki6l";
+      sha256 = "1f7gmm60yla325wlnd3qkxs59qm2y0aan8ljpg6k18rwzrrfil6z";
       type = "gem";
     };
-    version = "2.7.1.5";
+    version = "2.7.2.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -815,10 +815,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0n9d14ppshnx71i3mi1pnm3hwhcbb6m6vsc0b0dqgsab8r2rs96n";
+      sha256 = "0x4s82lgf0l71y3xc9gp4qxkrgx1kv8f6avdqd68l46ijbyvicdm";
       type = "gem";
     };
-    version = "1.8.1";
+    version = "1.8.2";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -846,10 +846,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0jrfcxs7qm2jamh44djz322c8xpg8zyllg6xyk0r0qnvk71dwlrn";
+      sha256 = "0phrig25dykgi42z6mf1abllh3ws6sv7awa82hzvvvbjx2xlzd3k";
       type = "gem";
     };
-    version = "0.92.0";
+    version = "0.93.1";
   };
   rubocop-ast = {
     dependencies = ["parser"];
