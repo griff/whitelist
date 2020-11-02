@@ -18,7 +18,7 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
-    dnsruby (1.61.4)
+    dnsruby (1.61.5)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
@@ -245,16 +245,16 @@ GEM
     regexp_parser (1.8.2)
     rexml (3.2.4)
     rouge (3.23.0)
-    rubocop (1.0.0)
+    rubocop (1.1.0)
       parallel (~> 1.10)
       parser (>= 2.7.1.5)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8)
       rexml
-      rubocop-ast (>= 0.6.0)
+      rubocop-ast (>= 1.0.1)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-ast (1.0.1)
+    rubocop-ast (1.1.0)
       parser (>= 2.7.1.5)
     ruby-enum (0.8.0)
       i18n
@@ -284,7 +284,7 @@ GEM
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
     yell (2.2.2)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
