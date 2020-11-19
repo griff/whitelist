@@ -13,20 +13,20 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: webfactory/ssh-agent@v0.4.0
+    - uses: webfactory/ssh-agent@v0.4.1
       with:
         ssh-private-key: ${{ secrets.DEPLOY_KEY }}
     - name: Checkout via SSH
       run: git clone git@github.com:griff/whitelist.git .
 
-    - uses: cachix/install-nix-action@v10
+    - uses: cachix/install-nix-action@v12
     - run: 'nix-shell update.nix --command "echo Hello"'
     - run: 'nix-shell update.nix --command "niv update"'
     - run: 'nix-shell update.nix --command "niv init"'
     - run: 'nix-shell update.nix --command "niv update"'
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v2
+      uses: peter-evans/create-pull-request@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: schedule/update-nixpkgs
