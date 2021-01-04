@@ -125,15 +125,25 @@
     version = "2.7.0";
   };
   faraday = {
-    dependencies = ["multipart-post" "ruby2_keywords"];
+    dependencies = ["faraday-net_http" "multipart-post" "ruby2_keywords"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "16ab36ci450dszn1q3akgpvwv8f3c1374iq7imzr0lzf0j1i6p5x";
+      sha256 = "1hmssd8pj4n7yq4kz834ylkla8ryyvhaap6q9nzymp93m1xq21kz";
       type = "gem";
     };
-    version = "1.2.0";
+    version = "1.3.0";
+  };
+  faraday-net_http = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1kk5d1c5nxbmwawl5gcznwiscjz24nz3vdhxrlzvj7748c1qqr6d";
+      type = "gem";
+    };
+    version = "1.0.0";
   };
   ffi = {
     groups = ["default" "development" "test"];
@@ -202,10 +212,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06vbbm8qdmw4955522zh9wqn2214ajsf70y0vymxgl7dlwjd2pz0";
+      sha256 = "0bz0041fizdmggc5k9an4s3qk6diyybn2agcia2wr96vymfb2qjh";
       type = "gem";
     };
-    version = "3.18.2";
+    version = "3.18.5";
   };
   "http_parser.rb" = {
     source = {
@@ -635,10 +645,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1zpcgha7g33wvy2xbbc663cbjyvg9l1325lg3gzgcn3baydr9rha";
+      sha256 = "06hkw6mssx39fg3jqyq57czr5acd11nqs5631k0xs50lr2y2pv8p";
       type = "gem";
     };
-    version = "3.3.3";
+    version = "3.4.0";
   };
   mercenary = {
     source = {
@@ -649,12 +659,14 @@
     version = "0.3.6";
   };
   mini_portile2 = {
+    groups = ["default" "development" "test"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "15zplpfw3knqifj9bpf604rb3wc1vhq6363pd6lvhayng8wql5vy";
+      sha256 = "1hdbpmamx8js53yk3h8cqy12kgv6ca06k0c9n3pxh6b6cjfs19x7";
       type = "gem";
     };
-    version = "2.4.0";
+    version = "2.5.0";
   };
   minima = {
     dependencies = ["jekyll" "jekyll-feed" "jekyll-seo-tag"];
@@ -688,15 +700,15 @@
     version = "2.1.1";
   };
   nokogiri = {
-    dependencies = ["mini_portile2"];
+    dependencies = ["mini_portile2" "racc"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0xmf60nj5kg9vaj5bysy308687sgmkasgx06vbbnf94p52ih7si2";
+      sha256 = "1l0hk4mswybx0czb0cx9zihjd7jc3a6jb9x6nisr0cbnpxkjbv8p";
       type = "gem";
     };
-    version = "1.10.10";
+    version = "1.11.0";
   };
   nokogumbo = {
     dependencies = ["nokogiri"];
@@ -726,10 +738,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1dz8na8fk445yqrwpkl31fimnap7p4xf9m9qm9i7cpvaxxgk2n24";
+      sha256 = "1fl517ld5vj0llyshp3f9kb7xyl9iqy28cbz3k999fkbwcxzhlyq";
       type = "gem";
     };
-    version = "4.19.0";
+    version = "4.20.0";
   };
   parallel = {
     groups = ["development" "test"];
@@ -770,6 +782,16 @@
       type = "gem";
     };
     version = "3.1.1";
+  };
+  racc = {
+    groups = ["default" "development" "test"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "178k7r0xn689spviqzhvazzvxfq6fyjldxb3ywjbgipbfi4s8j1g";
+      type = "gem";
+    };
+    version = "1.5.2";
   };
   rainbow = {
     source = {
@@ -857,10 +879,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1z9253d7hwdlqr3g7rwx6x6n0qwv8niq6r2ppgry2lbfvb4czypm";
+      sha256 = "1qvfp567aprjgcwj757p55ynj0dx2b3c3hd76za9z3c43sphprcj";
       type = "gem";
     };
-    version = "1.3.0";
+    version = "1.4.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
@@ -878,10 +900,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1k77i0d4wsn23ggdd2msrcwfy0i376cglfqypkk2q77r2l3408zf";
+      sha256 = "02nmaw7yx9kl7rbaan5pl8x5nn0y4j5954mzrkzi9i3dhsrps4nc";
       type = "gem";
     };
-    version = "1.10.1";
+    version = "1.11.0";
   };
   ruby2_keywords = {
     groups = ["default"];
