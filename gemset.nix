@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1axidc4mikgi4yxs0ynw2c54jyrs5lxprxmzv6m3aayi9rg6rk5j";
+      sha256 = "0mbzbpgqfqc109nc0k6kq713g84fg8h88sy6yjzadk94zb7lywbl";
       type = "gem";
     };
-    version = "6.0.3.4";
+    version = "6.0.3.5";
   };
   addressable = {
     dependencies = ["public_suffix"];
