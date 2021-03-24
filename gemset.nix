@@ -179,10 +179,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "023c3ca0r04xph7h5n6s886gfkv2c01hqnznbyhyqwgz6p6m5pl3";
+      sha256 = "0xdci61jjl51yalqi2j27jnfprsg4pc9s5ffyv5xyvv8zcrqkkcq";
       type = "gem";
     };
-    version = "212";
+    version = "213";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -407,10 +407,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zgvdpy9gv87wkwkh11zf6b26izjjski0d2lzhjbrixdgnqb3l6h";
+      sha256 = "0h2bwl42dig0282366kpxazxb8xafnppnd4yvq2dzcsg90kfgzfk";
       type = "gem";
     };
-    version = "0.4.2";
+    version = "0.4.3";
   };
   jekyll-sass-converter = {
     dependencies = ["sass"];
@@ -716,10 +716,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0pxm7hx2lhmanm8kljd39f1j1742kl0a31zx98jsjiwrkfb5hhc6";
+      sha256 = "0ngsnr0l6r4yccdwvky18n9a81plhpviaw6g7ym45mr1q0y0aj2w";
       type = "gem";
     };
-    version = "2.0.4";
+    version = "2.0.5";
   };
   octicons = {
     dependencies = ["nokogiri"];
