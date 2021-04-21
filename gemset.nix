@@ -125,15 +125,25 @@
     version = "2.7.0";
   };
   faraday = {
-    dependencies = ["faraday-net_http" "multipart-post" "ruby2_keywords"];
+    dependencies = ["faraday-excon" "faraday-net_http" "faraday-net_http_persistent" "multipart-post" "ruby2_keywords"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hmssd8pj4n7yq4kz834ylkla8ryyvhaap6q9nzymp93m1xq21kz";
+      sha256 = "0q646m07lfahakx5jdq77j004rcgfj6lkg13c0f84993gi78dhvi";
       type = "gem";
     };
-    version = "1.3.0";
+    version = "1.4.1";
+  };
+  faraday-excon = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0h09wkb0k0bhm6dqsd47ac601qiaah8qdzjh8gvxfd376x1chmdh";
+      type = "gem";
+    };
+    version = "1.1.0";
   };
   faraday-net_http = {
     groups = ["default"];
@@ -144,6 +154,16 @@
       type = "gem";
     };
     version = "1.0.1";
+  };
+  faraday-net_http_persistent = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0l2c835wl7gv34xp49fhd1bl4czkpw2g3ahqsak2251iqv5589ka";
+      type = "gem";
+    };
+    version = "1.1.0";
   };
   ffi = {
     groups = ["default" "development" "test"];
@@ -212,10 +232,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1f2piyx17zkqv4zn12lcwq970sxhsgczgdbh8ngc2k55b9sqlbwv";
+      sha256 = "1xq1h6aly78csmm1nwkpviqzqkwsahma1r2nv5yrm0vyzz6jzrh9";
       type = "gem";
     };
-    version = "3.19.0";
+    version = "3.19.1";
   };
   "http_parser.rb" = {
     source = {
