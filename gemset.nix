@@ -103,10 +103,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1cql2cxl9bg8gbmmlzl4kvpq7y0gjldgarsnxq35vpd7ga3h54w2";
+      sha256 = "1bby4hbq96vnzcdbbybcbddin8dxdnj1ns758kcr4akykningqhh";
       type = "gem";
     };
-    version = "0.13.0";
+    version = "0.14.0";
   };
   eventmachine = {
     source = {
@@ -888,10 +888,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0hi2c3a6alya9yx07nirnjzlc0mvmidnx67874njp6wf7d5xqqr9";
+      sha256 = "0cgrj670wrdw202pddiawcx2jbkcp7ja8zbc646by7nrg9ax492d";
       type = "gem";
     };
-    version = "1.12.1";
+    version = "1.13.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
