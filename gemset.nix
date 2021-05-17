@@ -117,12 +117,14 @@
     version = "1.2.7";
   };
   execjs = {
+    groups = ["default"];
+    platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1yz55sf2nd3l666ms6xr18sm2aggcvmb8qr3v53lr4rir32y1yp1";
+      sha256 = "121h6af4i6wr3wxvv84y53jcyw2sk71j5wsncm6wq6yqrwcrk4vd";
       type = "gem";
     };
-    version = "2.7.0";
+    version = "2.8.1";
   };
   faraday = {
     dependencies = ["faraday-excon" "faraday-net_http" "faraday-net_http_persistent" "multipart-post" "ruby2_keywords"];
@@ -364,10 +366,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1242w6if3q39x5af8d2535r5vj4c7817hh1c7hfggf9i13j43v05";
+      sha256 = "0mas738vckm9adlqfg3r55gchcgyf1b764b9qf1hlaiy2aq68xwm";
       type = "gem";
     };
-    version = "13.0.0";
+    version = "14.1.0";
   };
   jekyll-optional-front-matter = {
     dependencies = ["jekyll"];
@@ -725,10 +727,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "19d78mdg2lbz9jb4ph6nk783c9jbsdm8rnllwhga6pd53xffp6x0";
+      sha256 = "05rfzi8wksps5pgaavq1n1vkngsrjhqz8rcd1qdb52hnpg9q9p9b";
       type = "gem";
     };
-    version = "1.11.3";
+    version = "1.11.4";
   };
   nokogumbo = {
     dependencies = ["nokogiri"];
@@ -747,10 +749,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0idyj1dsjsd61ab57f1pyl4ahya72an8h2px8vyq1dqxg2jx7vsm";
+      sha256 = "0lrhpvjqhnkd0zmyhk685cfhmwglpkkgy9q2mlyc0yj7pi4423bx";
       type = "gem";
     };
-    version = "13.0.0";
+    version = "14.1.0";
   };
   octokit = {
     dependencies = ["faraday" "sawyer"];
@@ -888,10 +890,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0chjr6i0g7frbp7dhi4d83ppf7akkdaw7mcgcwbxd6a9mairafpp";
+      sha256 = "1xhay8qn3p5f3g6x8i6zh372zk5w2wjrv9dksysxal1r5brkly1w";
       type = "gem";
     };
-    version = "1.14.0";
+    version = "1.15.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
