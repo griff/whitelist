@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0c709s4ypa5zhfypapfxr27wvj16dyjx21c56kky24isdmz1032z";
+      sha256 = "0ppjnv9bbdvrnmlikaqsm6zaav3gv5s2qqgs4a5sr8yqb344zhfx";
       type = "gem";
     };
-    version = "6.0.3.7";
+    version = "6.0.4";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -81,10 +81,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0q7k7wn8flcdr0kzgknq40cjddd0zn3g3n4gwwwdz0kq30pinzxx";
+      sha256 = "0vvi62hkh2hxx3hcx3gqb6iak5cqd0yr6gd7nzg4kljjy8036zm3";
       type = "gem";
     };
-    version = "1.61.5";
+    version = "1.61.6";
   };
   em-websocket = {
     dependencies = ["eventmachine" "http_parser.rb"];
@@ -192,10 +192,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "15nn2v70rql15vb0pm9cg0f3xsaslwjkv6xgz0k5jh48idmfw9fi";
+      sha256 = "1wgvaclp4h9y8zkrgz8p2hqkrgr4j7kz0366mik0970w532cbmcq";
       type = "gem";
     };
-    version = "1.15.1";
+    version = "1.15.3";
   };
   forwardable-extended = {
     source = {
@@ -909,10 +909,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "16kj6nmb6nf9vw6xv21c39s8giaav5w11gymy058k6r4wybyn3zx";
+      sha256 = "0lnh62ij3jfr20mq8wb292fmiv8y1rbkxd3qg7fl2hn0azd157p6";
       type = "gem";
     };
-    version = "1.16.1";
+    version = "1.17.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
