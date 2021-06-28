@@ -81,10 +81,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vvi62hkh2hxx3hcx3gqb6iak5cqd0yr6gd7nzg4kljjy8036zm3";
+      sha256 = "1pbhj4xmj4262in6c1nwl5ssw0qypg8ysjrrkwn2akkzbxzy9rfq";
       type = "gem";
     };
-    version = "1.61.6";
+    version = "1.61.7";
   };
   em-websocket = {
     dependencies = ["eventmachine" "http_parser.rb"];
@@ -132,10 +132,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "07mhk70gv453pg38md346470hknyhipdqppnplq706ll3k3lzb7v";
+      sha256 = "0zmdsl6n05khwwq8gjssmfca0ifz6q82wwghf1qyzbxxjdna5mly";
       type = "gem";
     };
-    version = "1.4.2";
+    version = "1.4.3";
   };
   faraday-em_http = {
     groups = ["default"];
@@ -254,10 +254,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1xq1h6aly78csmm1nwkpviqzqkwsahma1r2nv5yrm0vyzz6jzrh9";
+      sha256 = "021ijjh50bz6r24jj1gq8jqkcv9khalfgnmzrk1gka2qbzlgfbvg";
       type = "gem";
     };
-    version = "3.19.1";
+    version = "3.19.2";
   };
   "http_parser.rb" = {
     source = {
