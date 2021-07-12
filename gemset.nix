@@ -132,10 +132,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0gwbii45plm9bljk22bwzhzxrc5xid8qx24f54vrm74q3zaz00ah";
+      sha256 = "1xpq9w46alagszx2mx82mqxxmsmyni2bpxd08gygzpl03zwbpr63";
       type = "gem";
     };
-    version = "1.5.0";
+    version = "1.5.1";
   };
   faraday-em_http = {
     groups = ["default"];
@@ -192,10 +192,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0l2c835wl7gv34xp49fhd1bl4czkpw2g3ahqsak2251iqv5589ka";
+      sha256 = "0dc36ih95qw3rlccffcb0vgxjhmipsvxhn6cw71l7ffs0f7vq30b";
       type = "gem";
     };
-    version = "1.1.0";
+    version = "1.2.0";
   };
   faraday-patron = {
     groups = ["default"];
@@ -820,10 +820,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1pxsi1i5z506xfzhiyavlasf8777h55ab40phvp7pfv9npmd5pnj";
+      sha256 = "06ma6w87ph8lnc9z4hi40ynmcdnjv0p8x53x0s3fjkz4q2p6sxh5";
       type = "gem";
     };
-    version = "3.0.1.1";
+    version = "3.0.2.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -867,10 +867,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1iik52mf9ky4cgs38fp2m8r6skdkq1yz23vh18lk95fhbcxb6a67";
+      sha256 = "15whn7p9nrkxangbs9hh75q585yfn66lv0v2mhj6q6dl6x8bzr2w";
       type = "gem";
     };
-    version = "13.0.3";
+    version = "13.0.6";
   };
   rb-fsevent = {
     groups = ["default"];
@@ -929,10 +929,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hi5zxn7wk8l6x7rs2wi7iqv87b1h4dx63m1pqzgibd3fw4rhibb";
+      sha256 = "045iralskypd95f42jdgbzp0alv2q0qlvya4qm6bkahg2rfb8s1x";
       type = "gem";
     };
-    version = "1.18.2";
+    version = "1.18.3";
   };
   rubocop-ast = {
     dependencies = ["parser"];
@@ -981,10 +981,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "05cn1grcvsl4i23p00skwd5xys3a7bpk1s50b7px48gwqnjx1ll0";
+      sha256 = "0grps9197qyxakbpw02pda59v45lfgbgiyw48i0mq9f2bn9y6mrz";
       type = "gem";
     };
-    version = "2.3.1";
+    version = "2.3.2";
   };
   safe_yaml = {
     groups = ["default"];
