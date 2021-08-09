@@ -132,10 +132,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0xmi0yl9sniicvyh2k437dicvvzkryrc1ckr8dic84a98bbl32gy";
+      sha256 = "0r6ik2yvsbx6jj30vck32da2bbvj4m0gf4jhp09vr75i1d6jzfvb";
       type = "gem";
     };
-    version = "1.6.0";
+    version = "1.7.0";
   };
   faraday-em_http = {
     groups = ["default"];
@@ -757,10 +757,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1ad0mli9rc0f17zw4ibp24dbj1y39zkykijsjmnzl4gwpg5s0j6k";
+      sha256 = "1lvxm91hi0pabnkkg47wh1siv56s6slm2mdq1idfm86dyfidfprq";
       type = "gem";
     };
-    version = "2.5.3";
+    version = "2.6.1";
   };
   minima = {
     dependencies = ["jekyll" "jekyll-feed" "jekyll-seo-tag"];
@@ -799,10 +799,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1vrn31385ix5k9b0yalnlzv360isv6dincbcvi8psllnwz4sjxj9";
+      sha256 = "1iav4jrklvm8938bxhby0khs36mdndhvwia4hc85zxcb0yl1k8ll";
       type = "gem";
     };
-    version = "1.11.7";
+    version = "1.12.2";
   };
   nokogumbo = {
     dependencies = ["nokogiri"];
@@ -972,10 +972,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0dbbll8k2xqdfpirzpfl3gi4asplay25mg91510i7qb601xbjpcy";
+      sha256 = "0llpicl0jzqy593l6xdwncii8s2fr18fy9wqqbzdhvxs2kygz9j8";
       type = "gem";
     };
-    version = "1.8.0";
+    version = "1.9.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
