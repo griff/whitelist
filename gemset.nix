@@ -132,10 +132,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0r6ik2yvsbx6jj30vck32da2bbvj4m0gf4jhp09vr75i1d6jzfvb";
+      sha256 = "0acqqv0w8nln89gf31ym8jsy12p70kc4fp40rrbsgs87vxvilia7";
       type = "gem";
     };
-    version = "1.7.0";
+    version = "1.7.1";
   };
   faraday-em_http = {
     groups = ["default"];
@@ -251,10 +251,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "12wksncb5kgbzshva78s5vj01dpbbgn7izlvhc6l278mj2v6xffn";
+      sha256 = "1fh656rj9zh0j2k2sip8vyzk5dz6kg73ssxkkl9k93qglva4jwpy";
       type = "gem";
     };
-    version = "218";
+    version = "219";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -262,10 +262,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0nsc7cq974bzzwq289rsrb2w0h8pvbxhz6xzh3kg6fpyl2n5mqc6";
+      sha256 = "1i77ljpjqcmr615ymckj30q3wa1rdv6ssbgsx8bjzqrwd1j1rlyf";
       type = "gem";
     };
-    version = "1.17.2";
+    version = "1.17.7";
   };
   html-pipeline = {
     dependencies = ["activesupport" "nokogiri"];
@@ -799,10 +799,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1q71y7pdihz26m3n2fnm2hd7wllmnxgxk6vcbbh27rqa14q5x5yi";
+      sha256 = "1sad16idsxayhaaswc3bksii1ydiqyzikl7y0ng35cn7w4g1dv3z";
       type = "gem";
     };
-    version = "1.12.3";
+    version = "1.12.4";
   };
   nokogumbo = {
     dependencies = ["nokogiri"];
@@ -961,10 +961,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1gmcmi0bbdhl4is0qxamlijbrcqq07bxka9h9x7v52zxmgc8qkwc";
+      sha256 = "0zyij3w6zwvrv69bnvh5yv3xm0463vllj8f9z1fcgwi5bbacbxj6";
       type = "gem";
     };
-    version = "1.19.1";
+    version = "1.20.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
@@ -972,10 +972,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0x6za0j9wwxr14rkkkmpbnwj04lak4yjmkyrdl8c31m9acba80zw";
+      sha256 = "06fkn66wrsfprvd7bh0bkjvdcr17b9jy3j0cs7lbd3f2yscvwr63";
       type = "gem";
     };
-    version = "1.10.0";
+    version = "1.11.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
