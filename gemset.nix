@@ -222,10 +222,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1wgvaclp4h9y8zkrgz8p2hqkrgr4j7kz0366mik0970w532cbmcq";
+      sha256 = "0ssxcywmb3flxsjdg13is6k01807zgzasdhj4j48dm7ac59cmksn";
       type = "gem";
     };
-    version = "1.15.3";
+    version = "1.15.4";
   };
   forwardable-extended = {
     source = {
@@ -416,10 +416,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1yjzwwya8gs68w5ay4cpzql78mbm9cf1jrgd8459ls1lczmz1lk2";
+      sha256 = "1dsxgiiiw7jsi23yj6y3k45xfkvar1zsfnlpk5lqm45y5j9c4kar";
       type = "gem";
     };
-    version = "15.0.1";
+    version = "15.1.0";
   };
   jekyll-optional-front-matter = {
     dependencies = ["jekyll"];
@@ -820,10 +820,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0j8b50fj458m85xd06zcgkawn7iqzhymznxk9gbnk3yss455pmbp";
+      sha256 = "1awi4jiawgmy8v5k9l5kaknqpn8h4v00yf3n9lqgmwqb3vm8j0al";
       type = "gem";
     };
-    version = "15.0.1";
+    version = "15.1.0";
   };
   octokit = {
     dependencies = ["faraday" "sawyer"];
