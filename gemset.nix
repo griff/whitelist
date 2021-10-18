@@ -103,10 +103,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1bby4hbq96vnzcdbbybcbddin8dxdnj1ns758kcr4akykningqhh";
+      sha256 = "0kd7c61f28f810fgxg480j7457nlvqarza9c2ra0zhav0dd80288";
       type = "gem";
     };
-    version = "0.14.0";
+    version = "0.15.0";
   };
   eventmachine = {
     source = {
@@ -251,10 +251,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vxzhcv3xjnl2am7ni1jri4cscnd3p45hvd0m7hj5j3pqwnwv5nx";
+      sha256 = "0kq0jg81l82yy3sxizbfcnnpwpqjxgydjq6qwma2jyrb5sclkav7";
       type = "gem";
     };
-    version = "220";
+    version = "221";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
