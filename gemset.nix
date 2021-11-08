@@ -972,10 +972,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0x0xfq2mpg194rcanbjrgvjbh94s9kq72jynxx61789s628kxy59";
+      sha256 = "06krbzlj49gjfmxpjwadfwqsqg5bgcp9k1fahyxxk3f6idqhkjbv";
       type = "gem";
     };
-    version = "1.12.0";
+    version = "1.13.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
