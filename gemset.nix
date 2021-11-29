@@ -251,10 +251,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0kq0jg81l82yy3sxizbfcnnpwpqjxgydjq6qwma2jyrb5sclkav7";
+      sha256 = "0hv2w3dhigy111h5mgv0kpbn52n9d3vy3wxd4a0nzmfg5irm6gvs";
       type = "gem";
     };
-    version = "221";
+    version = "222";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -854,10 +854,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06ma6w87ph8lnc9z4hi40ynmcdnjv0p8x53x0s3fjkz4q2p6sxh5";
+      sha256 = "0yiwykysrsqmn62fypa690qbrkyls2a4j0q2f9xjna1jq3djflcf";
       type = "gem";
     };
-    version = "3.0.2.0";
+    version = "3.0.3.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
