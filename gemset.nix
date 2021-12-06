@@ -251,10 +251,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0kq0jg81l82yy3sxizbfcnnpwpqjxgydjq6qwma2jyrb5sclkav7";
+      sha256 = "0hv2w3dhigy111h5mgv0kpbn52n9d3vy3wxd4a0nzmfg5irm6gvs";
       type = "gem";
     };
-    version = "221";
+    version = "222";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -854,10 +854,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06ma6w87ph8lnc9z4hi40ynmcdnjv0p8x53x0s3fjkz4q2p6sxh5";
+      sha256 = "1skkdjawwigi9vs5zkp03jkpx2f11drfjz483g1xw2dnjdsq22c3";
       type = "gem";
     };
-    version = "3.0.2.0";
+    version = "3.0.3.1";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -932,10 +932,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vg7imjnfcqjx7kw94ccj5r78j4g190cqzi1i59sh4a0l940b9cr";
+      sha256 = "008yn8j44414qxhn1c0nxp4a70rq0bqhz70hnjpgx8cjh2g0makp";
       type = "gem";
     };
-    version = "2.1.1";
+    version = "2.2.0";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -974,10 +974,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06krbzlj49gjfmxpjwadfwqsqg5bgcp9k1fahyxxk3f6idqhkjbv";
+      sha256 = "1zb514pg8b66r3jqs7vlacqp7r4bjw1jmssmgcbsc5lvfbzldcgq";
       type = "gem";
     };
-    version = "1.13.0";
+    version = "1.14.0";
   };
   ruby-enum = {
     dependencies = ["i18n"];
