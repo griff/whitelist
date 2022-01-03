@@ -246,15 +246,15 @@
     version = "3.0.1";
   };
   github-pages = {
-    dependencies = ["github-pages-health-check" "jekyll" "jekyll-avatar" "jekyll-coffeescript" "jekyll-commonmark-ghpages" "jekyll-default-layout" "jekyll-feed" "jekyll-gist" "jekyll-github-metadata" "jekyll-mentions" "jekyll-optional-front-matter" "jekyll-paginate" "jekyll-readme-index" "jekyll-redirect-from" "jekyll-relative-links" "jekyll-remote-theme" "jekyll-sass-converter" "jekyll-seo-tag" "jekyll-sitemap" "jekyll-swiss" "jekyll-theme-architect" "jekyll-theme-cayman" "jekyll-theme-dinky" "jekyll-theme-hacker" "jekyll-theme-leap-day" "jekyll-theme-merlot" "jekyll-theme-midnight" "jekyll-theme-minimal" "jekyll-theme-modernist" "jekyll-theme-primer" "jekyll-theme-slate" "jekyll-theme-tactile" "jekyll-theme-time-machine" "jekyll-titles-from-headings" "jemoji" "kramdown" "kramdown-parser-gfm" "liquid" "mercenary" "minima" "nokogiri" "rouge" "terminal-table"];
+    dependencies = ["github-pages-health-check" "jekyll" "jekyll-avatar" "jekyll-coffeescript" "jekyll-commonmark-ghpages" "jekyll-default-layout" "jekyll-feed" "jekyll-gist" "jekyll-github-metadata" "jekyll-include-cache" "jekyll-mentions" "jekyll-optional-front-matter" "jekyll-paginate" "jekyll-readme-index" "jekyll-redirect-from" "jekyll-relative-links" "jekyll-remote-theme" "jekyll-sass-converter" "jekyll-seo-tag" "jekyll-sitemap" "jekyll-swiss" "jekyll-theme-architect" "jekyll-theme-cayman" "jekyll-theme-dinky" "jekyll-theme-hacker" "jekyll-theme-leap-day" "jekyll-theme-merlot" "jekyll-theme-midnight" "jekyll-theme-minimal" "jekyll-theme-modernist" "jekyll-theme-primer" "jekyll-theme-slate" "jekyll-theme-tactile" "jekyll-theme-time-machine" "jekyll-titles-from-headings" "jemoji" "kramdown" "kramdown-parser-gfm" "liquid" "mercenary" "minima" "nokogiri" "rouge" "terminal-table"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0hv2w3dhigy111h5mgv0kpbn52n9d3vy3wxd4a0nzmfg5irm6gvs";
+      sha256 = "1sn88xmw16p56d975wv8497rlmxg156vxz2c6fz4i5zkj0dyiqnh";
       type = "gem";
     };
-    version = "222";
+    version = "223";
   };
   github-pages-health-check = {
     dependencies = ["addressable" "dnsruby" "octokit" "public_suffix" "typhoeus"];
@@ -400,6 +400,17 @@
       type = "gem";
     };
     version = "2.13.0";
+  };
+  jekyll-include-cache = {
+    dependencies = ["jekyll"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "01d2l6qrmjc42664ns83cv36jbvalcxqbkmj5i22fakka7jvkm67";
+      type = "gem";
+    };
+    version = "0.2.1";
   };
   jekyll-mentions = {
     dependencies = ["html-pipeline" "jekyll"];
@@ -843,10 +854,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0sszdl9mpzqzn9kxrp28sqmg47mjxcwypr4d60vbajqba4v885di";
+      sha256 = "08q20ckhn58m49lccf93p0yv7pkc7hymmcz3di762kb658d5fd38";
       type = "gem";
     };
-    version = "3.0.3.2";
+    version = "3.1.0.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -952,10 +963,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hz27fwc3lw6zizk5qlgj5da2a6h401ng5kw1q67wh8q9g44hj0h";
+      sha256 = "1sn7ag295blmhpwv6x472m3fd0n25swz9imqwpk0hg21rdcdw7p0";
       type = "gem";
     };
-    version = "1.24.0";
+    version = "1.24.1";
   };
   rubocop-ast = {
     dependencies = ["parser"];
@@ -963,10 +974,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0bj8ppl4143f7pkcwm4l5wcahid6yzracdlzh1w2fpss89pic2rf";
+      sha256 = "1xrij42166a71ixfpfr1pildqdrcmc0cb4906h2s8sk4kqdyngih";
       type = "gem";
     };
-    version = "1.15.0";
+    version = "1.15.1";
   };
   ruby-enum = {
     dependencies = ["i18n"];
@@ -1146,9 +1157,9 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "199aq1b9ccv002iwyky5igbb2wvrdmb68k5xayr90v0yhwdw1ar7";
+      sha256 = "0lmg9x683gr9mkrbq9df2m0zb0650mdfxqna0bs10js44inv7znx";
       type = "gem";
     };
-    version = "2.5.2";
+    version = "2.5.3";
   };
 }
