@@ -18,7 +18,7 @@ if [ -f "$OUT/microsoft_ip" ]; then
 fi
 set -x
 write_ips Worldwide
-write_ips Germany
+#write_ips Germany
 write_ips China
 write_ips USGovDoD
 write_ips USGovGCCHigh
