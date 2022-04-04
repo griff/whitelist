@@ -295,10 +295,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "080sn9z1a64gv04p318jz10y6lv6qd3avip08rrcmq9k4ihai0f1";
+      sha256 = "1ndc2qvnmfw51ysxsw6ikizckaa6iaj7gks0ap7mnrzss7f7i08w";
       type = "gem";
     };
-    version = "2.14.0";
+    version = "2.14.1";
   };
   html-proofer = {
     dependencies = ["addressable" "mercenary" "nokogiri" "parallel" "rainbow" "typhoeus" "yell"];
