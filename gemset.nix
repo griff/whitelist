@@ -876,10 +876,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zaghgvva2q4jqbachg8jvpwgbg3w1jqr0d00m8rqciqznjgsw3c";
+      sha256 = "0xhfghgidj8cbdnqp01f7kvnrv1f60izpkd9dhxsvpdzkfsdg97d";
       type = "gem";
     };
-    version = "3.1.1.0";
+    version = "3.1.2.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -895,10 +895,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1xqcgkl7bwws1qrlnmxgh8g4g9m10vg60bhlw40fplninb3ng6d9";
+      sha256 = "1f3knlwfwm05sfbaihrxm4g772b79032q14c16q4b38z8bi63qcb";
       type = "gem";
     };
-    version = "4.0.6";
+    version = "4.0.7";
   };
   racc = {
     groups = ["default" "development" "test"];
