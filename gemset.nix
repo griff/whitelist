@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1w74dw96laf63qd748sm2ngabrkfk08qrrw6hqkii3gqhm52df91";
+      sha256 = "0yqr0k878n4s70myxr36n7sz3y5faydy173vqlq98bhqf70zjp8g";
       type = "gem";
     };
-    version = "6.0.4.8";
+    version = "6.0.5";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -451,10 +451,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0wlhyrgs3b3cbz2b68db7dk0gbb28pdgdqwr08b90ryg5ikb64pn";
+      sha256 = "1ljsyjw7h8pc5pvm87xz2h2wkb7rwh14f60g7c1xfq0nhk3azigc";
       type = "gem";
     };
-    version = "17.1.0";
+    version = "17.2.0";
   };
   jekyll-optional-front-matter = {
     dependencies = ["jekyll"];
@@ -844,10 +844,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0jhp87ywwlhiaz6d40ijnc1k962bqyghx4p5y5vlnhwx22g9a89d";
+      sha256 = "117vz56gpy118wsvbg46qkbk6q0gcrvlgii78x1wsr1b0a5x8q9i";
       type = "gem";
     };
-    version = "17.1.0";
+    version = "17.2.0";
   };
   octokit = {
     dependencies = ["faraday" "sawyer"];
@@ -956,10 +956,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "073f8wivvmlm6rd44k03wda0rnyhczbysxl95g8snnnrnz345ks6";
+      sha256 = "01rmdc7ryjyajk3a4mdn68y4bvp3ly9xv610wia3291hsiqncrb6";
       type = "gem";
     };
-    version = "2.3.1";
+    version = "2.4.0";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -987,10 +987,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1k3qyjw81vslcn34lws9xvqz57c1yak53kls8kmvddc7pinzfizb";
+      sha256 = "0k2wp9sxqpdyc12kp8qafls0yn44vq90zxd830s7y7rxp9xq3018";
       type = "gem";
     };
-    version = "1.29.0";
+    version = "1.29.1";
   };
   rubocop-ast = {
     dependencies = ["parser"];
@@ -998,10 +998,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1k9izkr5rhw3zc309yjp17z7496l74j4li3zrcgpgqfnqwz695qx";
+      sha256 = "1b3p4wy68jkyq8vhm5y568wlhsihy3ilnp2c6ig18xcw1slnkypl";
       type = "gem";
     };
-    version = "1.17.0";
+    version = "1.18.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
