@@ -306,10 +306,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1lsx1ga63wjw61dadq8xwr2gyix7qz0lsk1v9r6853lrlrnjnjzf";
+      sha256 = "0bm6imnqik9fw8w7nsp21wwvd2qirrimcwn1pk5bqw823iij1547";
       type = "gem";
     };
-    version = "3.19.3";
+    version = "3.19.4";
   };
   "http_parser.rb" = {
     groups = ["default"];
