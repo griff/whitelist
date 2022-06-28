@@ -722,10 +722,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "05ik7y422ylnv391w7lh812w43p1dirlvkzyq09v27ag683fvsbh";
+      sha256 = "08z6rgs1jgbc032843mwg3fayvzn4hihz8bl2gp87pf7z02kw5f3";
       type = "gem";
     };
-    version = "5.16.0";
+    version = "5.16.1";
   };
   nokogiri = {
     dependencies = ["mini_portile2" "racc"];
@@ -886,10 +886,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "088xzzq6vjsgi2cj9rnz2jlj5mghmgq1j250pn5zy8yqd39vxz71";
+      sha256 = "1x04l6vpc8pg5p7ayh942s6jlhdvdz7razyjy7zrwr022xnnc2x2";
       type = "gem";
     };
-    version = "1.30.1";
+    version = "1.31.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
