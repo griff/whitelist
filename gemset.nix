@@ -743,10 +743,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0lhhnqch8r9n1835p6pvmg4m2r4hb98nkfxrpr4yf6246d9xg8bc";
+      sha256 = "0g7axlq2y6gzmixzzzhw3fn6nhrhg469jj8gfr7gs8igiclpkhkr";
       type = "gem";
     };
-    version = "1.13.7";
+    version = "1.13.8";
   };
   octicons = {
     groups = ["default"];
@@ -896,10 +896,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1wnj1lkzldgz11v397pi2qyd5k0s7dw8nzrkr5pxhl28ks01a7v4";
+      sha256 = "09k371m1l177ca8w70hfbjb1w0hasfb46pxp4w6yw92kk71akll2";
       type = "gem";
     };
-    version = "1.31.2";
+    version = "1.32.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
@@ -1028,10 +1028,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zwqqh6138s8b321fwvfbywxy00lw1azw4ql3zr0xh1aqxf8cnvj";
+      sha256 = "0rw89y3zj0wcybcyiazgcprg6hi42k8ipp1n2lbl95z1dmpgmly6";
       type = "gem";
     };
-    version = "1.2.9";
+    version = "1.2.10";
   };
   unf = {
     dependencies = ["unf_ext"];
