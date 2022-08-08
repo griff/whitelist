@@ -133,10 +133,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0i45f90mg367izgpxf6rrq9zbwwqba1pymwyja6q128vrj1pjajj";
+      sha256 = "0831zb09k8ksd67q01jby25q6sgzv1m5j8pwjs70iwjpgwxcl56j";
       type = "gem";
     };
-    version = "2.4.0";
+    version = "2.5.0";
   };
   faraday-net_http = {
     groups = ["default"];
@@ -215,10 +215,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "08gps9x2x5qs5qqjsx1nbl2x7dzmf1p728d3iscyx31liwpbicx6";
+      sha256 = "1gp1flcnm9gp2ykagj7q2hrzxp0996ix68cj4affqln1125abri4";
       type = "gem";
     };
-    version = "4.3.1";
+    version = "4.3.2";
   };
   "http_parser.rb" = {
     groups = ["default"];
@@ -896,10 +896,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "09k371m1l177ca8w70hfbjb1w0hasfb46pxp4w6yw92kk71akll2";
+      sha256 = "16iq79pmxi5f45n7lwg64g32swqh16gmyifqr2g210pdpkbva4vn";
       type = "gem";
     };
-    version = "1.32.0";
+    version = "1.33.0";
   };
   rubocop-ast = {
     dependencies = ["parser"];
@@ -907,10 +907,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0h8q3gwqs8afshjd2l52ywf48md9rskr3q2y4fydgm536vvahjgm";
+      sha256 = "0s4m9h9hzrpfmsnswvfimafmjwfa79cbqh9dvq18cja32dhrhpcg";
       type = "gem";
     };
-    version = "1.19.1";
+    version = "1.21.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
