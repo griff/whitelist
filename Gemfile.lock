@@ -7,8 +7,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     coffee-script (2.4.1)
       coffee-script-source
@@ -225,7 +225,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.16.2)
+    minitest (5.16.3)
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -248,7 +248,7 @@ GEM
     regexp_parser (2.5.0)
     rexml (3.2.5)
     rouge (3.26.0)
-    rubocop (1.35.0)
+    rubocop (1.35.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.2.1)
@@ -302,4 +302,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.3.9
+   2.3.20
