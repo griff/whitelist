@@ -9,7 +9,7 @@ in
     name = "whitelist-update";
 
     buildInputs = [
-      ruby.devEnv pkgconfig
+      ruby.devEnv
       curl bash openssl rsync openssh bundix niv
     ];
   }
