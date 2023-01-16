@@ -693,10 +693,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0agybr37wpjv3xy4ipcmsvsibgdgphzrwbvcj4vfiykpmakwm01v";
+      sha256 = "13rgkfar8pp31z1aamxf5y7cfq88wv6rxxcwy7cmm177qq508ycn";
       type = "gem";
     };
-    version = "3.7.1";
+    version = "3.8.0";
   };
   mercenary = {
     source = {
@@ -743,10 +743,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0n79k78c5vdcyl0m3y3l5x9kxl6xf5lgriwi2vd665qmdkr01vnk";
+      sha256 = "1fqld4wnamj7awdr1lwdifpylqdrrg5adm8xj2jl9sc5ms3nxjjm";
       type = "gem";
     };
-    version = "1.13.10";
+    version = "1.14.0";
   };
   octicons = {
     groups = ["default"];
