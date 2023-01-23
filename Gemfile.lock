@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.6)
+    activesupport (6.0.6.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -26,7 +26,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faraday (2.7.2)
+    faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -245,7 +245,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (2.6.1)
+    regexp_parser (2.6.2)
     rexml (3.2.5)
     rouge (3.26.0)
     rubocop (1.42.0)
@@ -302,4 +302,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.4.2
+   2.4.3
