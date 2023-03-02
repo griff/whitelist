@@ -71,10 +71,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1qnsflsbjj38im8xq35g0vihlz96h09wjn2dad5g543l3vvrkrx5";
+      sha256 = "0krcwb6mn0iklajwngwsg850nk8k9b35dhmc2qkbdqvmifdi2y9q";
       type = "gem";
     };
-    version = "1.2.0";
+    version = "1.2.2";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
@@ -745,10 +745,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0qr6psd9qgv83pklpw7cpmshkcasnv8d777ksmvwsacwfvvkmnxj";
+      sha256 = "1djq4rp4m967mn6sxmiw75vz24gfp0w602xv22kk1x3cmi5afrf7";
       type = "gem";
     };
-    version = "1.14.1";
+    version = "1.14.2";
   };
   octicons = {
     groups = ["default"];
@@ -787,10 +787,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zk8mdyr0322r11d63rcp5jhz4lakxilhvyvdv0ql5dw4lb83623";
+      sha256 = "0cdjcasyg7w05kk82dqysq29f1qcf8y5sw8iak5flpxjbdil50qv";
       type = "gem";
     };
-    version = "3.2.0.0";
+    version = "3.2.1.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -867,10 +867,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zjg29w5zvar7by1kqck3zilbdzm5iz3jp5d1zn3970krskfazh2";
+      sha256 = "0d6241adx6drsfzz74nx1ld3394nm6fjpv3ammzr0g659krvgf7q";
       type = "gem";
     };
-    version = "2.6.2";
+    version = "2.7.0";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -909,10 +909,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1pdzabz95hv3z5sfbkfqa8bdybsfl13gv7rjb32v3ss8klq99lbd";
+      sha256 = "1zqk8dgjjhm0zll2rxqvvb8fl5vin7mmbc1ndn1a2q4276ri6ydc";
       type = "gem";
     };
-    version = "1.24.1";
+    version = "1.26.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
@@ -1073,9 +1073,9 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "09pqhdi6q4sqv0p1gnjpbcy4az0yv8hrpykjngdgh9qiqd87nfdv";
+      sha256 = "028ld9qmgdllxrl7d0qkl65s58wb1n3gv8yjs28g43a8b1hplxk1";
       type = "gem";
     };
-    version = "2.6.6";
+    version = "2.6.7";
   };
 }
