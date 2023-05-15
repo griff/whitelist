@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0gj166ij131c5d53dj51ad8v25dsrn9xym3vx8wkma1n40x3d6la";
+      sha256 = "0w2nyq5h0hgscdaaj2lf622xg2m2qqs593y3hvw0v2r0xmpwj3hl";
       type = "gem";
     };
-    version = "2.5.0";
+    version = "2.5.1";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -308,10 +308,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0i4a5nhfz5hq90vzpnkclkhq2y83r8d454jb65ajgvqqgpg902fz";
+      sha256 = "0j36a76mbcvp5516liiv01z5gz3f64waiqgskj1zrxqbwyirx5h7";
       type = "gem";
     };
-    version = "1.2.0";
+    version = "1.2.2";
   };
   jekyll = {
     dependencies = ["addressable" "colorator" "em-websocket" "i18n" "jekyll-sass-converter" "jekyll-watch" "kramdown" "liquid" "mercenary" "pathutil" "rouge" "safe_yaml"];
@@ -434,10 +434,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ln019zkk9xxnfb9s0q4xqnpnn49yc4d6c86c0y0bjan2iv5m5pv";
+      sha256 = "0ip66dl1zfq001qgsrp2a5bg56s2wiskbckaz5pydfwa2c413rmg";
       type = "gem";
     };
-    version = "17.10.0";
+    version = "19.1.0";
   };
   jekyll-optional-front-matter = {
     dependencies = ["jekyll"];
@@ -817,20 +817,20 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0fnw0z8zl8b5k35g9m5hhc1g4s6ajzjinhyxnqjrx7l7p07fw71v";
+      sha256 = "03g0hwp3z8m442nq8ag4lrbcgwcc7hhi8d1s0y7ipic0m50szl9b";
       type = "gem";
     };
-    version = "1.14.3";
+    version = "1.14.4";
   };
   octicons = {
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1kk1cv21k8dm2kc8hh0mk9bzlpff3h5fh32z3jcivzsnfnj2r6z2";
+      sha256 = "16c9xfg15ncfpr6ycgq6g2b82sn655md53ghbk2aaj91y36b0qc7";
       type = "gem";
     };
-    version = "17.10.0";
+    version = "19.1.0";
   };
   octokit = {
     dependencies = ["faraday" "sawyer"];
