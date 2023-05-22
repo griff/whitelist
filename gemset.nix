@@ -817,10 +817,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "03g0hwp3z8m442nq8ag4lrbcgwcc7hhi8d1s0y7ipic0m50szl9b";
+      sha256 = "10zmnzk0b6v48s9nyrgnidcinn06m52ph3mzzcjh5q7xrzii3mb8";
       type = "gem";
     };
-    version = "1.14.4";
+    version = "1.15.1";
   };
   octicons = {
     groups = ["default"];
