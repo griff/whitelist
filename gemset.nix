@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1qxyycnm89wn496kq85dvnj23rzxzaji0i405xij2jpdyy83w5km";
+      sha256 = "0gk3mbwrzyrc1a5669x8cw83qkddjyg42dxwdx3xb4rf7rwnzdx3";
       type = "gem";
     };
-    version = "2.6.1";
+    version = "2.6.2";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -444,10 +444,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ip66dl1zfq001qgsrp2a5bg56s2wiskbckaz5pydfwa2c413rmg";
+      sha256 = "1msg572b7iqk56f5x0bnk8psajl5qc53hbf4bnzi3magycmi5y2f";
       type = "gem";
     };
-    version = "19.1.0";
+    version = "19.3.0";
   };
   jekyll-optional-front-matter = {
     dependencies = ["jekyll"];
@@ -816,10 +816,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ic7i5z88zcaqnpzprf7saimq2f6sad57g5mkkqsrqrcd6h3mx06";
+      sha256 = "1kg9wh7jlc9zsr3hkhpzkbn0ynf4np5ap9m2d8xdrb8shy0y6pmb";
       type = "gem";
     };
-    version = "5.18.0";
+    version = "5.18.1";
   };
   nokogiri = {
     dependencies = ["mini_portile2" "racc"];
@@ -837,10 +837,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "16c9xfg15ncfpr6ycgq6g2b82sn655md53ghbk2aaj91y36b0qc7";
+      sha256 = "0zy1xx0ckgvnj4ysc8n7xlvgfsx058q1snj2bck30zrfvn19f8vg";
       type = "gem";
     };
-    version = "19.1.0";
+    version = "19.3.0";
   };
   octokit = {
     dependencies = ["faraday" "sawyer"];
@@ -909,10 +909,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0m2i3shf5y7bj253z00gxpw2k5dr6nn97s7ppbs3q4zw78i0pz94";
+      sha256 = "11v3l46mwnlzlc371wr3x6yylpgafgwdf0q7hc7c1lzx6r414r5g";
       type = "gem";
     };
-    version = "1.7.0";
+    version = "1.7.1";
   };
   rainbow = {
     groups = ["default" "development" "test"];
