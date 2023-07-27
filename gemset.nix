@@ -113,10 +113,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1kxcxm3ynrsv6d60r2pzbw6rzdbg506hn3536pflaf747c5y2db7";
+      sha256 = "133csy1c80wh144hzr0pwcwg7i553pqn2byzsdw6kq5s0kg0pg8m";
       type = "gem";
     };
-    version = "1.17.2";
+    version = "1.18.0";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
@@ -795,10 +795,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0z7f38iq37h376n9xbl4gajdrnwzq284c9v1py4imw3gri2d5cj6";
+      sha256 = "02mj8mpd6ck5gpcnsimx5brzggw5h5mmmpq2djdypfq16wcw82qq";
       type = "gem";
     };
-    version = "2.8.2";
+    version = "2.8.4";
   };
   minima = {
     dependencies = ["jekyll" "jekyll-feed" "jekyll-seo-tag"];
