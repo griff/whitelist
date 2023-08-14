@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1cjsf26656996hv48wgv2mkwxf0fy1qc68ikgzq7mzfq2mmvmayk";
+      sha256 = "1wzbnv3hns0yiwbgh1m3q5j0d7b0k52nlpwirhxyv3l0ycmljfr9";
       type = "gem";
     };
-    version = "7.0.6";
+    version = "7.0.7";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -113,10 +113,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "03m18136c5a8q3y7v65sr45nyw4han17b2pwn1n2m8j9x1i84z17";
+      sha256 = "04cpbx4bsw3k20xgvz6cs1gi41q9mmagc95x2zk6ar49a25z89sb";
       type = "gem";
     };
-    version = "1.21.0";
+    version = "1.23.1";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
@@ -827,10 +827,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1jw8a20a9k05fpz3q24im19b97idss3179z76yn5scc5b8lk2rl7";
+      sha256 = "0k9w2z0953mnjrsji74cshqqp08q7m1r6zhadw1w0g34xzjh3a74";
       type = "gem";
     };
-    version = "1.15.3";
+    version = "1.15.4";
   };
   octicons = {
     groups = ["default"];
