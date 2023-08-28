@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1wzbnv3hns0yiwbgh1m3q5j0d7b0k52nlpwirhxyv3l0ycmljfr9";
+      sha256 = "1vlzcnyqlbchaq85phmdv73ydlc18xpvxy1cbsk191cwd29i7q32";
       type = "gem";
     };
-    version = "7.0.7";
+    version = "7.0.7.2";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0806cya8kq9glg6vifa9j4zjf81drwa84hdzx71ah98zz317hvhb";
+      sha256 = "02ng89h9s4wwpncyqbkm9n26swp4q45dkvqsb2fpmkan32zn48ji";
       type = "gem";
     };
-    version = "2.6.3";
+    version = "2.6.4";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -318,10 +318,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0046p1q98xrys4bzcx74k658fv1fiigdgcd0az0pm12n2hjcms6r";
+      sha256 = "1m2x5m2m8fa83p5890byf46qb4s1073vn3z6gan9jmbq2a5w0iy8";
       type = "gem";
     };
-    version = "1.2.3";
+    version = "1.3.2";
   };
   jekyll = {
     dependencies = ["addressable" "colorator" "em-websocket" "i18n" "jekyll-sass-converter" "jekyll-watch" "kramdown" "liquid" "mercenary" "pathutil" "rouge" "safe_yaml"];
