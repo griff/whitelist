@@ -205,10 +205,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0izp7ly3zs2igzjpryi3pyqjrq5xlwywxyrgpr36gp4qxfcvpzv8";
+      sha256 = "0faxk6nsyh36anl8bmsk1b2cfaxsn9398bg9wcn2scqcpf1axwlf";
       type = "gem";
     };
-    version = "1.16.1";
+    version = "1.16.2";
   };
   fiber-annotation = {
     groups = ["default" "development" "test"];
@@ -1206,9 +1206,9 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1mwdd445w63khz13hpv17m2br5xngyjl3jdj08xizjbm78i2zrxd";
+      sha256 = "1gir0if4nryl1jhwi28669gjwhxb7gzrm1fcc8xzsch3bnbi47jn";
       type = "gem";
     };
-    version = "2.6.11";
+    version = "2.6.12";
   };
 }
