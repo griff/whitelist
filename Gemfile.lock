@@ -271,7 +271,7 @@ GEM
       ruby-rc4
       ttfunk
     public_suffix (4.0.7)
-    racc (1.7.1)
+    racc (1.7.3)
     rainbow (3.1.1)
     rake (13.1.0)
     rb-fsevent (0.11.2)
@@ -336,4 +336,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.4.19
+   2.4.20
