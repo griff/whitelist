@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.1.0)
-    activesupport (7.1.1)
+    activesupport (7.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -21,7 +21,7 @@ GEM
       fiber-annotation
       io-event (~> 1.1)
       timers (~> 4.1)
-    base64 (0.1.1)
+    base64 (0.2.0)
     bigdecimal (3.1.4)
     coffee-script (2.4.1)
       coffee-script-source
@@ -36,7 +36,7 @@ GEM
       fiber-local
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
-    drb (2.1.1)
+    drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -250,7 +250,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.20.0)
-    mutex_m (0.1.2)
+    mutex_m (0.2.0)
     nokogiri (1.15.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -317,7 +317,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8.2)
+    unf_ext (0.0.9)
     unicode-display_width (1.8.0)
     yell (2.2.2)
     zeitwerk (2.6.12)
