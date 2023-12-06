@@ -143,10 +143,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "150wdj94qg8c95b9v1g7ak5a9g159wxfanclpihrz9p9qbv1ga0w";
+      sha256 = "0hrim08vijxbrq0qgw0l3x4v0xsn2z711x0y3ahhdb2258sxcdr3";
       type = "gem";
     };
-    version = "1.23.2";
+    version = "1.23.3";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
@@ -775,10 +775,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0nalhin1gda4v8ybk6lq8f407cgfrj6qzn234yra4ipkmlbfmal6";
+      sha256 = "0wi7g6c8q0v1kahwp38mv8d526p1n2ddsr79ajx84idvih0c601i";
       type = "gem";
     };
-    version = "2.6.3";
+    version = "2.7.0";
   };
   kramdown = {
     dependencies = ["rexml"];
