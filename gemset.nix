@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17df1p6z3dhs5p8qpb477sqwpswbrnkrbqlk2d2ch3af4ghnsxf9";
+      sha256 = "0ww7hd45nsgd00jcdrf9rj8yz0gcjhx6p8ssxfrafm70qbmph0s6";
       type = "gem";
     };
-    version = "2.8.2";
+    version = "2.9.0";
   };
   base64 = {
     groups = ["default"];
@@ -145,10 +145,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0rqasnd15r16kivh3n7kj6k98m8apfi2aj5796z5y31lr3kcbdqy";
+      sha256 = "17lmb99w4rfaqx0rxxzzaigg4xx18vvxi8f9wydxr3bp9024p8aq";
       type = "gem";
     };
-    version = "1.23.4";
+    version = "1.23.5";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
@@ -351,10 +351,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0qaamqsh5f3szhcakkak8ikxlzxqnv49n2p7504hcz2l0f4nj0wx";
+      sha256 = "0lbm33fpb3w06wd2231sg58dwlwgjsvym93m548ajvl6s3mfvpn7";
       type = "gem";
     };
-    version = "1.14.1";
+    version = "1.14.4";
   };
   io-event = {
     groups = ["default" "development" "test"];
@@ -1070,10 +1070,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "12jyhmg1x9shy1db173d5hsdr4qhia42kymnx8z7v9l4mzc848n0";
+      sha256 = "1v3q8n48w8h809rqbgzihkikr4g3xk72m1na7s97jdsmjjq6y83w";
       type = "gem";
     };
-    version = "1.31.1";
+    version = "1.31.2";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
@@ -1177,14 +1177,15 @@
     version = "4.3.5";
   };
   ttfunk = {
+    dependencies = ["bigdecimal"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "15iaxz9iak5643bq2bc0jkbjv8w2zn649lxgvh5wg48q9d4blw13";
+      sha256 = "1ji0kn8jkf1rpskv3ijzxvqwixg4p6sk8kg0vmwyjinci7jcgjx7";
       type = "gem";
     };
-    version = "1.7.0";
+    version = "1.8.0";
   };
   typhoeus = {
     dependencies = ["ethon"];
