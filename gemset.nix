@@ -73,14 +73,14 @@
     version = "0.2.0";
   };
   bigdecimal = {
-    groups = ["default"];
+    groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "00db5v09k1z3539g1zrk7vkjrln9967k08adh6qx33ng97a2gg5w";
+      sha256 = "0cq1c29zbkcxgdihqisirhcw76xc768z2zpd5vbccpq0l1lv76g7";
       type = "gem";
     };
-    version = "3.1.6";
+    version = "3.1.7";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -156,10 +156,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17bjlic4ac9980vas3pgnhi5lkisq28vd730bhcg8jdh8xcp6r48";
+      sha256 = "15zh7qi60zwzy184rdmmp55d857ss96f2lad78gcwnpr1223q4mj";
       type = "gem";
     };
-    version = "1.70.0";
+    version = "1.71.0";
   };
   drb = {
     groups = ["default"];
@@ -863,10 +863,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0667vf0zglacry87nkcl3ns8421aydvz71vfa3g3yjhiq8zh19f5";
+      sha256 = "07lq26b86giy3ha3fhrywk9r1ajhc2pm2mzj657jnpnbj1i6g17a";
       type = "gem";
     };
-    version = "5.22.2";
+    version = "5.22.3";
   };
   mutex_m = {
     groups = ["default"];
@@ -895,10 +895,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "173zavvxlwyi48lfskk48wcrdbkvjlhjhvy4jpcrfx72rpjjx4k8";
+      sha256 = "0j72sg8n8834vbw2x8glcp46y5r2dls2pj64ll7rmf6mri9s52j9";
       type = "gem";
     };
-    version = "1.16.2";
+    version = "1.16.3";
   };
   octicons = {
     groups = ["default"];
