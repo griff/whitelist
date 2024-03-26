@@ -145,10 +145,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17lmb99w4rfaqx0rxxzzaigg4xx18vvxi8f9wydxr3bp9024p8aq";
+      sha256 = "1hfd0hahqn1w4ckrflcmfvxgja1mvljf24wcwpq4hivg3xq65rci";
       type = "gem";
     };
-    version = "1.23.5";
+    version = "1.23.6";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
