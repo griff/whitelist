@@ -16,7 +16,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
     ast (2.4.2)
-    async (2.9.0)
+    async (2.10.1)
       console (~> 1.10)
       fiber-annotation
       io-event (~> 1.5, >= 1.5.1)
@@ -35,7 +35,7 @@ GEM
       fiber-annotation
       fiber-local
       json
-    dnsruby (1.71.0)
+    dnsruby (1.72.0)
       simpleidn (~> 0.2.1)
     drb (2.2.1)
     em-websocket (0.5.3)
