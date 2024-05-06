@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1f7gzgwpnaywfhwx5lqqm3k62i658876ijcklpah2kvp6bg545sv";
+      sha256 = "1cg7d1r66hcrkbzaj83qg6f69cczcd5l52mi9a1j6x47nkwwfv9j";
       type = "gem";
     };
-    version = "2.10.2";
+    version = "2.11.0";
   };
   base64 = {
     groups = ["default"];
@@ -145,10 +145,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1ns71x0jrmp4zr3arqasqf0dlvlhmx5x28rprwsd6v1k7xf08pf7";
+      sha256 = "0hz9j70qyqsszckmvbdywrrgpsf3j5pvfj2l4wn7nlhf3f6by3s6";
       type = "gem";
     };
-    version = "1.24.0";
+    version = "1.25.2";
   };
   dnsruby = {
     dependencies = ["simpleidn"];
@@ -254,14 +254,25 @@
     version = "0.2.0";
   };
   fiber-local = {
+    dependencies = ["fiber-storage"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1vrxxb09fc7aicb9zb0pmn5akggjy21dmxkdl3w949y4q05rldr9";
+      sha256 = "01lz929qf3xa90vra1ai1kh059kf2c8xarfy6xbv1f8g457zk1f8";
       type = "gem";
     };
-    version = "1.0.0";
+    version = "1.1.0";
+  };
+  fiber-storage = {
+    groups = ["default" "development" "test"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0934k8gm0p7bv5b7d6h3qbjnsk7b4y8ys6mnjmk6lg52ca084r7h";
+      type = "gem";
+    };
+    version = "0.1.0";
   };
   forwardable-extended = {
     source = {
@@ -1070,10 +1081,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1v3q8n48w8h809rqbgzihkikr4g3xk72m1na7s97jdsmjjq6y83w";
+      sha256 = "063qgvqbyv354icl2sgx758z22wzq38hd9skc3n96sbpv0cdc1qv";
       type = "gem";
     };
-    version = "1.31.2";
+    version = "1.31.3";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
