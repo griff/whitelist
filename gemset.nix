@@ -36,10 +36,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1ds4v9xgsyvijnlflak4dzf1qwmda9yd5bv8jwsb56nngd399rlw";
+      sha256 = "1c62cx96r0v265mywnlik43qx0wf6bjbzl54qa47x6dzjg861mvk";
       type = "gem";
     };
-    version = "1.1.0";
+    version = "1.1.1";
   };
   ast = {
     groups = ["default" "development" "test"];
@@ -77,10 +77,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0cq1c29zbkcxgdihqisirhcw76xc768z2zpd5vbccpq0l1lv76g7";
+      sha256 = "1gi7zqgmqwi5lizggs1jhc3zlwaqayy9rx2ah80sxy24bbnng558";
       type = "gem";
     };
-    version = "3.1.7";
+    version = "3.1.8";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -341,10 +341,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0lzh3lb3l2qid3sh3da0fgjdwdly2g5jia6drzpn1dn1b92a7wwm";
+      sha256 = "0bv64vqgv2rq6n14ggyyvfh9lh51wfxpwqxibh5gwc9b75949qqv";
       type = "gem";
     };
-    version = "5.0.8";
+    version = "5.0.9";
   };
   "http_parser.rb" = {
     groups = ["default"];
@@ -362,10 +362,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0lbm33fpb3w06wd2231sg58dwlwgjsvym93m548ajvl6s3mfvpn7";
+      sha256 = "1ffix518y7976qih9k1lgnc17i3v6yrlh0a3mckpxdb4wc2vrp16";
       type = "gem";
     };
-    version = "1.14.4";
+    version = "1.14.5";
   };
   io-event = {
     groups = ["default" "development" "test"];
@@ -1039,10 +1039,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1ndxm0xnv27p4gv6xynk6q41irckj76q1jsqpysd9h6f86hhp841";
+      sha256 = "1g1viksd9ryqb5psrharqdnrb8mvhw65ps1z1d8y6z93r6brxj24";
       type = "gem";
     };
-    version = "2.9.0";
+    version = "2.9.1";
   };
   rexml = {
     groups = ["default" "development" "test"];
