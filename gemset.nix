@@ -874,10 +874,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zgq31wa0ygqnmpqh3plsig32xc8k4l99r49ncmidfg91kfagymg";
+      sha256 = "0jj629q3vw5yn90q4di4dyb87pil4a8qfm2srhgy5nc8j2n33v1i";
       type = "gem";
     };
-    version = "5.24.0";
+    version = "5.24.1";
   };
   mutex_m = {
     groups = ["default"];
@@ -1050,10 +1050,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0428ady49qssmnmwnafzrjvyba8mzbridsgblv7c7kmd0vqgfn99";
+      sha256 = "09f3sw7f846fpcpwdm362ylqldwqxpym6z0qpld4av7zisrrzbrl";
       type = "gem";
     };
-    version = "3.3.0";
+    version = "3.3.1";
   };
   rouge = {
     groups = ["default"];
