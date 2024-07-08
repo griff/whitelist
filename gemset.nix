@@ -212,15 +212,15 @@
     version = "2.9.1";
   };
   faraday = {
-    dependencies = ["faraday-net_http"];
+    dependencies = ["faraday-net_http" "logger"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1913fk7szy3bj8mf1dxs4waym5ya5fzzc5d3a8z24qs67fzfv5b5";
+      sha256 = "1adx342h7s3imyrwwbda73g9ni1y07qj35br9lrzq4f5mh16qghs";
       type = "gem";
     };
-    version = "2.9.2";
+    version = "2.10.0";
   };
   faraday-net_http = {
     dependencies = ["net-http"];
@@ -839,6 +839,16 @@
       type = "gem";
     };
     version = "3.9.0";
+  };
+  logger = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0gpg8gzi0xwymw4aaq2iafcbx31i3xzkg3fb30mdxn1d4qhc3dqa";
+      type = "gem";
+    };
+    version = "1.6.0";
   };
   mercenary = {
     source = {
