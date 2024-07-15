@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "199yvq9m9kx3svaxdrqg8ainfh2p7gfmkrlspc5d8nnhysnb6vql";
+      sha256 = "12v9wzayrs3g18k289s939mlwmd5r41jb0zzmaf5w20xdlz6clmj";
       type = "gem";
     };
-    version = "2.12.1";
+    version = "2.14.1";
   };
   base64 = {
     groups = ["default"];
@@ -156,10 +156,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1qpa5d8i6ay25grwb9d6x47jdn5c8vykhg02m8rgpmc3hci4mbsb";
+      sha256 = "066dpkgka17fkn5cv7sk2f4jmwb5d1jila1cnhm77cnd01k5mqcm";
       type = "gem";
     };
-    version = "1.72.1";
+    version = "1.72.2";
   };
   drb = {
     groups = ["default"];
@@ -212,15 +212,15 @@
     version = "2.9.1";
   };
   faraday = {
-    dependencies = ["faraday-net_http"];
+    dependencies = ["faraday-net_http" "logger"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1913fk7szy3bj8mf1dxs4waym5ya5fzzc5d3a8z24qs67fzfv5b5";
+      sha256 = "1adx342h7s3imyrwwbda73g9ni1y07qj35br9lrzq4f5mh16qghs";
       type = "gem";
     };
-    version = "2.9.2";
+    version = "2.10.0";
   };
   faraday-net_http = {
     dependencies = ["net-http"];
@@ -840,6 +840,16 @@
     };
     version = "3.9.0";
   };
+  logger = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0gpg8gzi0xwymw4aaq2iafcbx31i3xzkg3fb30mdxn1d4qhc3dqa";
+      type = "gem";
+    };
+    version = "1.6.0";
+  };
   mercenary = {
     source = {
       remotes = ["https://rubygems.org"];
@@ -948,10 +958,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1sryynf3iws1b2ffba1gvmlpf8jzhfva5p0qdf37x6wdj683rqm2";
+      sha256 = "10ly2wind06nylyqa5724ld2l0l46d3ag4fm04ifjgw7qdlpf94d";
       type = "gem";
     };
-    version = "3.3.3.0";
+    version = "3.3.4.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
