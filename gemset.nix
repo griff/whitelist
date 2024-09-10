@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1y1976k5x1w72p7srg7nsnjwpgi1sk2vcimddw89xd03xsy9wzr6";
+      sha256 = "0m4kiwz66b6clf9ciz0wrq6j4vgj92icm6c88v0n7w3sxqxy6jkx";
       type = "gem";
     };
-    version = "2.16.1";
+    version = "2.17.0";
   };
   base64 = {
     groups = ["default"];
@@ -948,10 +948,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1rn9d4j8mqljaq2ikfmlm374v2flml9mgzsqfa9zh7ra1ilsivvi";
+      sha256 = "1cqs31cyg2zp8yx2zzm3zkih0j93q870wasbviy2w343nxqvn3pk";
       type = "gem";
     };
-    version = "3.3.4.2";
+    version = "3.3.5.0";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -1045,15 +1045,14 @@
     version = "2.9.2";
   };
   rexml = {
-    dependencies = ["strscan"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1ik3in0957l9s6iwdm3nsk4za072cj27riiqgpx6zzcd22flbw3s";
+      sha256 = "09shc1dvg88c4yx83d4c9wf26z838nlapa3cmlq8iqdci39a98v2";
       type = "gem";
     };
-    version = "3.3.6";
+    version = "3.3.7";
   };
   rouge = {
     groups = ["default"];
@@ -1082,10 +1081,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hbrxmffc6bwc08sx8gh9fwp6n7qymgggn4n0dh8pzx8g8xwx1ka";
+      sha256 = "03zywfpm4540q6hw8srhi8pzp0gg51w65ir8jkaw58vk3j31w820";
       type = "gem";
     };
-    version = "1.32.1";
+    version = "1.32.3";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
@@ -1177,16 +1176,6 @@
       type = "gem";
     };
     version = "0.2.3";
-  };
-  strscan = {
-    groups = ["default" "development" "test"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "0mamrl7pxacbc79ny5hzmakc9grbjysm3yy6119ppgsg44fsif01";
-      type = "gem";
-    };
-    version = "3.1.0";
   };
   terminal-table = {
     dependencies = ["unicode-display_width"];
