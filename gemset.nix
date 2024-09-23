@@ -212,15 +212,15 @@
     version = "2.9.1";
   };
   faraday = {
-    dependencies = ["faraday-net_http" "logger"];
+    dependencies = ["faraday-net_http" "json" "logger"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "00pd34pnfmij5iw1xv73f6d68zng63wyjhmk7dyi010kmb4x5sp6";
+      sha256 = "05s5pyxh7y68jphb0lgrh0ksxbp4lmbsc6a6qg0ahj15pjqx01ni";
       type = "gem";
     };
-    version = "2.11.0";
+    version = "2.12.0";
   };
   faraday-net_http = {
     dependencies = ["net-http"];
