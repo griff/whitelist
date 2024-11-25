@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hr3m4f6cbv0ajp5giprbz0pzdy2hw293jfrsb7zkzczidsbnci8";
+      sha256 = "1pj8xp1ky6bz4jpksnhmdln72w4azpf97ab9py1x2f6krsj7dlxr";
       type = "gem";
     };
-    version = "2.20.0";
+    version = "2.21.0";
   };
   base64 = {
     groups = ["default"];
@@ -124,10 +124,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1lb5slzbqrca49h0gaifg82xky5r7i9xgm4560pin1xl5fp15lzx";
+      sha256 = "1gyjwd7in1nlf8zai2fxazxi8cy6xjzswdcjway520blb39ka7cx";
       type = "gem";
     };
-    version = "0.23.10";
+    version = "0.23.11";
   };
   concurrent-ruby = {
     groups = ["default"];
@@ -161,15 +161,15 @@
     version = "1.29.0";
   };
   dnsruby = {
-    dependencies = ["simpleidn"];
+    dependencies = ["base64" "simpleidn"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "066dpkgka17fkn5cv7sk2f4jmwb5d1jila1cnhm77cnd01k5mqcm";
+      sha256 = "0ys49x6lsy1cly3w9w4zrivv0lg8rqsdbp9q2ix05d3494dbsjkn";
       type = "gem";
     };
-    version = "1.72.2";
+    version = "1.72.3";
   };
   drb = {
     groups = ["default"];
@@ -382,10 +382,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1cicd7dpnksbj7pjqzbz993p36qja0gw0wlgi49m7z11agg91fp2";
+      sha256 = "14pvl0zxainpdmjpj8cjxr740b4gk7iqvhf0ja6bsjq5hafdh1xc";
       type = "gem";
     };
-    version = "1.7.3";
+    version = "1.7.4";
   };
   jekyll = {
     dependencies = ["addressable" "colorator" "em-websocket" "i18n" "jekyll-sass-converter" "jekyll-watch" "kramdown" "liquid" "mercenary" "pathutil" "rouge" "safe_yaml"];
@@ -894,10 +894,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1n1akmc6bibkbxkzm1p1wmfb4n9vv397knkgz0ffykb3h1d7kdix";
+      sha256 = "1sw3kvajbs5fvlqf1cz2kd6641iibmrc8idm4y8ian007vb7kcsr";
       type = "gem";
     };
-    version = "5.25.1";
+    version = "5.25.2";
   };
   net-http = {
     dependencies = ["uri"];
