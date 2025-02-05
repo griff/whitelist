@@ -52,15 +52,15 @@
     version = "2.4.2";
   };
   async = {
-    dependencies = ["console" "fiber-annotation" "io-event"];
+    dependencies = ["console" "fiber-annotation" "io-event" "metrics" "traces"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17aq671gzxsv1irmqjcj7p7vm4jpmy74hw2x1f3r7i71xnfgcq2x";
+      sha256 = "17vjy5zysypiqjrlcp00brdlqcfwn5z5sf61439lfsn29h7rlv9j";
       type = "gem";
     };
-    version = "2.21.1";
+    version = "2.21.3";
   };
   base64 = {
     groups = ["default"];
@@ -868,6 +868,16 @@
     };
     version = "0.3.6";
   };
+  metrics = {
+    groups = ["default" "development" "test"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1762zjanzjzr7jwig2arpj4h09ylhspipp9blx4pb9cjvgm8xv22";
+      type = "gem";
+    };
+    version = "0.12.1";
+  };
   mini_portile2 = {
     groups = ["default" "development" "test"];
     platforms = [];
@@ -978,10 +988,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1m5jpqrgxg14n732g05rbyl7b1d1ysjj6smplk81m8jbr8r6g910";
+      sha256 = "18hnr4p79zgppc2xdjfyaj3i5rznmq1d6dp341gkc1qzlsxzhsv7";
       type = "gem";
     };
-    version = "2.13.0";
+    version = "2.14.0";
   };
   public_suffix = {
     groups = ["default" "development" "test"];
@@ -1091,10 +1101,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "10604xc4bcji3ca43anlc89xwxb4wkzk69cia95x04zima4aq4wm";
+      sha256 = "1bi6pgnii77763dzwhafcp8lrmnh4n1bqbdimhc9lfj4zs96gpsg";
       type = "gem";
     };
-    version = "1.37.0";
+    version = "1.38.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
@@ -1195,6 +1205,16 @@
       type = "gem";
     };
     version = "1.8.0";
+  };
+  traces = {
+    groups = ["default" "development" "test"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "109dh1xmsmvkg1pf3306svigh3m8kdmjqlznyk4bi2r4nws7hm6j";
+      type = "gem";
+    };
+    version = "0.15.2";
   };
   ttfunk = {
     dependencies = ["bigdecimal"];
