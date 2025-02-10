@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17vjy5zysypiqjrlcp00brdlqcfwn5z5sf61439lfsn29h7rlv9j";
+      sha256 = "0bfca5pjrnigc4ksx1bs2c47kgr6xyhyxqg0whqzmh2yc62bmav3";
       type = "gem";
     };
-    version = "2.21.3";
+    version = "2.22.0";
   };
   base64 = {
     groups = ["default"];
@@ -382,10 +382,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1s2ja3x17ffakc5iq56js0bp0wrqdvyhcbz5a9m3nnzks06wkywr";
+      sha256 = "036y3143vyfr5yr93hzy0mb3m886gd7lliz867k49xr3idvjfw0k";
       type = "gem";
     };
-    version = "1.7.5";
+    version = "1.8.4";
   };
   jekyll = {
     dependencies = ["addressable" "colorator" "em-websocket" "i18n" "jekyll-sass-converter" "jekyll-watch" "kramdown" "liquid" "mercenary" "pathutil" "rouge" "safe_yaml"];
@@ -802,10 +802,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "048danb0x10mpch6mf88mky35zjn6wk4hpbqq68ssbq58i3fzgfj";
+      sha256 = "1hs23lsw5ghfq6l5kp4s1a544i2ryjpfnzh69rj9ky01ln9j9mfm";
       type = "gem";
     };
-    version = "2.9.1";
+    version = "2.10.0";
   };
   kramdown = {
     dependencies = ["rexml"];
@@ -968,10 +968,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "16qi2qhpszm842awxghmsp64yvvawafq96w5jw98irz3f4bh2jbl";
+      sha256 = "18dcwrcnddvi8gl3hmbsb2cj1l7afxk2lh3jmhj90l95h1hn3gkx";
       type = "gem";
     };
-    version = "3.3.7.0";
+    version = "3.3.7.1";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -988,10 +988,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "18hnr4p79zgppc2xdjfyaj3i5rznmq1d6dp341gkc1qzlsxzhsv7";
+      sha256 = "06s17fbb9br58ng02kzwijch0kbdsjzr3rnrganr98s9q8hlanml";
       type = "gem";
     };
-    version = "2.14.0";
+    version = "2.14.1";
   };
   public_suffix = {
     groups = ["default" "development" "test"];
