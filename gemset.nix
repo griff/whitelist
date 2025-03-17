@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0drfj44a16r86clrrqz3vqmg93qri6bqghjm21ac6jn2853cfnzx";
+      sha256 = "0pm40y64wfc50a9sj87kxvil2102rmpdcbv82zf0r40vlgdwsrc5";
       type = "gem";
     };
-    version = "8.0.1";
+    version = "8.0.2";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -382,10 +382,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hag7zbmsvkbmv0486bxqvnngym4mhsj32aywwmklr5d21k2n9jc";
+      sha256 = "1p79w29pkmql5mi9d2wqpjfn1cqy8fdxkidk9m4bia5106zzbqg4";
       type = "gem";
     };
-    version = "1.9.0";
+    version = "1.10.0";
   };
   jekyll = {
     dependencies = ["addressable" "colorator" "em-websocket" "i18n" "jekyll-sass-converter" "jekyll-watch" "kramdown" "liquid" "mercenary" "pathutil" "rouge" "safe_yaml"];
@@ -802,10 +802,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1p4l5ycdxfsr8b51gnvlvhq6s21vmx9z4x617003zbqv3bcqmj6x";
+      sha256 = "01lbdaizhkxmrw4y8j3wpvsryvnvzmg0pfs56c52laq2jgdfmq1l";
       type = "gem";
     };
-    version = "2.10.1";
+    version = "2.10.2";
   };
   kramdown = {
     dependencies = ["rexml"];
@@ -904,10 +904,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0izrg03wn2yj3gd76ck7ifbm9h2kgy8kpg4fk06ckpy4bbicmwlw";
+      sha256 = "0mn7q9yzrwinvfvkyjiz548a4rmcwbmz2fn9nyzh4j1snin6q6rr";
       type = "gem";
     };
-    version = "5.25.4";
+    version = "5.25.5";
   };
   net-http = {
     dependencies = ["uri"];
@@ -926,10 +926,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0npx535cs8qc33n0lpbbwl0p9fi3a5bczn6ayqhxvknh9yqw77vb";
+      sha256 = "1b34gaa6fiby5fb0zn1p5f8h1rx84wxz0bq9w39y3fhv3i920y5v";
       type = "gem";
     };
-    version = "1.18.3";
+    version = "1.18.4";
   };
   octicons = {
     groups = ["default"];
@@ -1101,10 +1101,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1zjpv3kw4ciwk0dh43zj17ws318vnirby1clmcy6j9mvr4mbxv40";
+      sha256 = "0v13m0ckd80mbvdbhwn52qqrdx1ii6n0b566h4xh7vgcgikhzfmn";
       type = "gem";
     };
-    version = "1.38.1";
+    version = "1.39.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
