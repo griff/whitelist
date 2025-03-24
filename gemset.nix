@@ -46,10 +46,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "04nc8x27hlzlrr5c2gn7mar4vdr0apw5xg22wp6m8dx3wqr04a0y";
+      sha256 = "10yknjyn0728gjn6b5syynvrvrwm66bhssbxq8mkhshxghaiailm";
       type = "gem";
     };
-    version = "2.4.2";
+    version = "2.4.3";
   };
   async = {
     dependencies = ["console" "fiber-annotation" "io-event" "metrics" "traces"];
@@ -926,10 +926,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1b34gaa6fiby5fb0zn1p5f8h1rx84wxz0bq9w39y3fhv3i920y5v";
+      sha256 = "1p1nl5gqs56wlv2gwzdj0px3dw018ywpkg14a4s23b0qjkdgi9n8";
       type = "gem";
     };
-    version = "1.18.4";
+    version = "1.18.5";
   };
   octicons = {
     groups = ["default"];
@@ -968,10 +968,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "18dcwrcnddvi8gl3hmbsb2cj1l7afxk2lh3jmhj90l95h1hn3gkx";
+      sha256 = "0pxnbysqw7qx6wq48mibi6nflpjylxd1nn38l9cl9f70dc3yj7f7";
       type = "gem";
     };
-    version = "3.3.7.1";
+    version = "3.3.7.2";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -1101,10 +1101,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0v13m0ckd80mbvdbhwn52qqrdx1ii6n0b566h4xh7vgcgikhzfmn";
+      sha256 = "03bwgjbldrxgzcskv3lz7kv2ymccbz0wp1y6wcijix236ynzkvqf";
       type = "gem";
     };
-    version = "1.39.0";
+    version = "1.41.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
