@@ -926,10 +926,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1p1nl5gqs56wlv2gwzdj0px3dw018ywpkg14a4s23b0qjkdgi9n8";
+      sha256 = "1921rqxvigaw6v8wpfrnywx39kn64j7kijl72bm1k5w2swqk8a2d";
       type = "gem";
     };
-    version = "1.18.5";
+    version = "1.18.6";
   };
   octicons = {
     groups = ["default"];
@@ -968,10 +968,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0pxnbysqw7qx6wq48mibi6nflpjylxd1nn38l9cl9f70dc3yj7f7";
+      sha256 = "1awq9rswd3mj8sr5acp1ca6nbkk57zpw8388j7w163i8fhi2h9ib";
       type = "gem";
     };
-    version = "3.3.7.2";
+    version = "3.3.7.4";
   };
   pathutil = {
     dependencies = ["forwardable-extended"];
@@ -992,6 +992,16 @@
       type = "gem";
     };
     version = "2.14.1";
+  };
+  prism = {
+    groups = ["default" "development" "test"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0gkhpdjib9zi9i27vd9djrxiwjia03cijmd6q8yj2q1ix403w3nw";
+      type = "gem";
+    };
+    version = "1.4.0";
   };
   public_suffix = {
     groups = ["default" "development" "test"];
@@ -1096,15 +1106,15 @@
     version = "1.42.0";
   };
   rubocop-ast = {
-    dependencies = ["parser"];
+    dependencies = ["parser" "prism"];
     groups = ["default" "development" "test"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "03bwgjbldrxgzcskv3lz7kv2ymccbz0wp1y6wcijix236ynzkvqf";
+      sha256 = "16mp7ppf3p516zs0iwbpqkn7fxs8iw12jargrc905qbc6fg69kcj";
       type = "gem";
     };
-    version = "1.41.0";
+    version = "1.43.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
