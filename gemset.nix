@@ -144,10 +144,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1z7bag6zb2vwi7wp2bkdkmk7swkj6zfnbsnc949qq0wfsgw94fr3";
+      sha256 = "171yzazg2wccbc545hwsx85sba91k7k1imir3c88385mlj82m05f";
       type = "gem";
     };
-    version = "2.5.0";
+    version = "2.5.1";
   };
   console = {
     dependencies = ["fiber-annotation" "fiber-local" "json"];
@@ -248,10 +248,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0fgwn1grxf4zxmyqmb9i4z2hr111585n9jnk17y6y7hhs7dv1xi6";
+      sha256 = "19kdyjg3kv7x0ad4xsd4swy5izsbb1vl1rpb6qqcqisr5s23awi9";
       type = "gem";
     };
-    version = "1.17.1";
+    version = "1.17.2";
   };
   fiber-annotation = {
     groups = ["default" "development" "test"];
@@ -279,10 +279,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zxblmxwdpj3587wji5325y53gjdcmzxzm6126dyg58b3qzk42mq";
+      sha256 = "1qa0j9qjwav9xb0n3isx0rbh0942xrfback392n6vs8bidnmp3pl";
       type = "gem";
     };
-    version = "1.0.0";
+    version = "1.0.1";
   };
   forwardable-extended = {
     source = {
@@ -957,10 +957,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1vy7sjs2pgz4i96v5yk9b7aafbffnvq7nn419fgvw55qlavsnsyq";
+      sha256 = "0c719bfgcszqvk9z47w2p8j2wkz5y35k48ywwas5yxbbh3hm3haa";
       type = "gem";
     };
-    version = "1.26.3";
+    version = "1.27.0";
   };
   parser = {
     dependencies = ["ast" "racc"];
