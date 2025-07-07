@@ -227,10 +227,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0xbv450qj2bx0qz9l2pjrd3kc057y6bglc3na7a78zby8ssiwlyc";
+      sha256 = "06ia9z1wxydn0nmddinnjr93qdv856gi3i87h0fycy5y7cp7c6aw";
       type = "gem";
     };
-    version = "2.13.1";
+    version = "2.13.2";
   };
   faraday-net_http = {
     dependencies = ["net-http"];
@@ -382,10 +382,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1i30il3v3283w2s6md17yj8qjg410wy7522mzzv56ljqd0g5hibh";
+      sha256 = "1fcn9frs3305ddci1ndh31cgxsc2zwzdhzglsk05z7vdv33hlr2a";
       type = "gem";
     };
-    version = "1.11.0";
+    version = "1.11.2";
   };
   jekyll = {
     dependencies = ["addressable" "colorator" "em-websocket" "i18n" "jekyll-sass-converter" "jekyll-watch" "kramdown" "liquid" "mercenary" "pathutil" "rouge" "safe_yaml"];
