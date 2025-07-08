@@ -52,7 +52,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.10.0)
-    faraday (2.13.1)
+    faraday (2.13.2)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
@@ -132,7 +132,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    io-event (1.11.0)
+    io-event (1.11.2)
     jekyll (3.9.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -349,4 +349,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.6.6
+   2.6.9
