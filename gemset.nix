@@ -155,10 +155,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0va4020qf4hkvmf0xxv32g2nwmhqyys864w6blpyp99xwyfsdmg2";
+      sha256 = "1nmi55shibycdmd6p77n8bykcz8vj9gnvrwwr10g3kg3hiikv3ia";
       type = "gem";
     };
-    version = "1.31.0";
+    version = "1.32.0";
   };
   dnsruby = {
     dependencies = ["base64" "logger" "simpleidn"];
@@ -802,10 +802,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1x5b8ipv6g0z44wgc45039k04smsyf95h2m5m67mqq35sa5a955s";
+      sha256 = "1861nwzxrfn7g90zmq9mndblprcqlfs1s0lyqp37wqdmip7g3gd4";
       type = "gem";
     };
-    version = "2.12.2";
+    version = "2.13.0";
   };
   kramdown = {
     dependencies = ["rexml"];
@@ -926,10 +926,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0rb306hbky6cxfyc8vrwpvl40fdapjvhsk62h08gg9wwbn3n8x4c";
+      sha256 = "0czsh9d738kj0bmpkjnczq9j924hg103gc00i0wfyg0fzn9psnmc";
       type = "gem";
     };
-    version = "1.18.8";
+    version = "1.18.9";
   };
   octicons = {
     groups = ["default"];
@@ -1111,10 +1111,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0gis8w51k5dsmzzlppvwwznqyfd73fa3zcrpl1xihzy1mm4jw14l";
+      sha256 = "0ar3y8w36am483ynyzg0x8iwhn8h34y8f4agny4lyqcqbfnzd9qd";
       type = "gem";
     };
-    version = "1.45.1";
+    version = "1.46.0";
   };
   ruby-progressbar = {
     groups = ["default" "development" "test"];
