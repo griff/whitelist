@@ -873,10 +873,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ap1l7ziydzr3kc5aix9rawj6ss2x1j0zq20fjxv7hjx4c4apjkm";
+      sha256 = "04xkaxbj0mk8mll0fmnlnwqab20k3yqy141blj0pi0lns5r337qk";
       type = "gem";
     };
-    version = "0.12.2";
+    version = "0.13.0";
   };
   mini_portile2 = {
     groups = ["default" "development" "test"];
@@ -1069,10 +1069,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0qccah61pjvzyyg6mrp27w27dlv6vxlbznzipxjcswl7x3fhsvyb";
+      sha256 = "0h6dq0cy9mrkj8z4d8w0c7r7b6s92fls2pm57p79726ifns7ipfr";
       type = "gem";
     };
-    version = "2.10.0";
+    version = "2.11.0";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -1221,10 +1221,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "109dh1xmsmvkg1pf3306svigh3m8kdmjqlznyk4bi2r4nws7hm6j";
+      sha256 = "13mfhbxg7w3dphfmrfar5xp13mk05nbq1h7zg6yb176rnrr5hglh";
       type = "gem";
     };
-    version = "0.15.2";
+    version = "0.16.2";
   };
   ttfunk = {
     dependencies = ["bigdecimal"];
