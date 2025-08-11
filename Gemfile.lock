@@ -19,7 +19,7 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     afm (0.2.2)
     ast (2.4.3)
-    async (2.27.0)
+    async (2.27.2)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
@@ -291,7 +291,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    regexp_parser (2.11.0)
+    regexp_parser (2.11.1)
     rexml (3.4.1)
     rouge (3.30.0)
     rubocop (1.42.0)
