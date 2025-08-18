@@ -5,10 +5,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0pm40y64wfc50a9sj87kxvil2102rmpdcbv82zf0r40vlgdwsrc5";
+      sha256 = "1ik1sm5sizrsnr3di0klh7rvsy9r9mmd805fv5srk66as5psf184";
       type = "gem";
     };
-    version = "8.0.2";
+    version = "8.0.2.1";
   };
   addressable = {
     dependencies = ["public_suffix"];
@@ -26,10 +26,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06kj9hgd0z8pj27bxp2diwqh6fv7qhwwm17z64rhdc4sfn76jgn8";
+      sha256 = "0ia5iw9xvvy1igaxsa08vvv4b5ry9ipyr18917pi8w0y4kvddm2v";
       type = "gem";
     };
-    version = "0.2.2";
+    version = "1.0.0";
   };
   Ascii85 = {
     groups = ["default" "development" "test"];
@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "05ng9iy6ns5jjc6zd4mk02k3ky1043b0gj8d7pw0x49dqp5zr3m6";
+      sha256 = "0z4m3hriasl3b8a5fpd88d7bh9in9zykwr1qk29jq7q1c67nlpyr";
       type = "gem";
     };
-    version = "2.27.2";
+    version = "2.27.3";
   };
   base64 = {
     groups = ["default"];
@@ -988,10 +988,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06s17fbb9br58ng02kzwijch0kbdsjzr3rnrganr98s9q8hlanml";
+      sha256 = "11h8dhhd2c8mxssibk9q6qn7ilj4p71crlfirw8pppn8pr85f0n5";
       type = "gem";
     };
-    version = "2.14.1";
+    version = "2.15.0";
   };
   prism = {
     groups = ["default" "development" "test"];
@@ -1069,10 +1069,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1vir4x1wg7vc3gcpl0ymvf6hbid71l2h3nhz91a8rqr25nwnamjs";
+      sha256 = "167zy35y4sasqx7wdpv757vigxl1znphfa0xmd9xxn7zhla9qpjy";
       type = "gem";
     };
-    version = "2.11.1";
+    version = "2.11.2";
   };
   rexml = {
     groups = ["default" "development" "test"];
@@ -1221,10 +1221,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "13mfhbxg7w3dphfmrfar5xp13mk05nbq1h7zg6yb176rnrr5hglh";
+      sha256 = "1lpf8ximxrx19zmlh9jjchfbzl3zhca0isqhs2295mlccd68697h";
       type = "gem";
     };
-    version = "0.16.2";
+    version = "0.17.0";
   };
   ttfunk = {
     dependencies = ["bigdecimal"];
