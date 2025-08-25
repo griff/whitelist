@@ -57,10 +57,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0z4m3hriasl3b8a5fpd88d7bh9in9zykwr1qk29jq7q1c67nlpyr";
+      sha256 = "0g1bmhjhlhna2fc5cjamg3pn5y482yybh5n6gv5cw8w59lwgabia";
       type = "gem";
     };
-    version = "2.27.3";
+    version = "2.27.4";
   };
   base64 = {
     groups = ["default"];
@@ -198,10 +198,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17ix0mijpsy3y0c6ywrk5ibarmvqzjsirjyprpsy3hwax8fdm85v";
+      sha256 = "1d73yry0y96db22ks0bacjjjhwnbnajslipima3ayhq2cavpsiia";
       type = "gem";
     };
-    version = "0.16.0";
+    version = "0.17.0";
   };
   eventmachine = {
     source = {
@@ -873,10 +873,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "04xkaxbj0mk8mll0fmnlnwqab20k3yqy141blj0pi0lns5r337qk";
+      sha256 = "1sgbixbl0pvzfvshvjvih6ir94408bk246qmdafjs2iycdj51z58";
       type = "gem";
     };
-    version = "0.13.0";
+    version = "0.14.0";
   };
   mini_portile2 = {
     groups = ["default" "development" "test"];
@@ -1221,10 +1221,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1lpf8ximxrx19zmlh9jjchfbzl3zhca0isqhs2295mlccd68697h";
+      sha256 = "0kn4qn9wzypw5693kza96s52avlzw0ax7x5vq4s4cvm97zx9hd3y";
       type = "gem";
     };
-    version = "0.17.0";
+    version = "0.18.1";
   };
   ttfunk = {
     dependencies = ["bigdecimal"];
