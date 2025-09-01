@@ -19,12 +19,12 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     afm (1.0.0)
     ast (2.4.3)
-    async (2.27.4)
+    async (2.28.1)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
       metrics (~> 0.12)
-      traces (~> 0.15)
+      traces (~> 0.18)
     base64 (0.2.0)
     benchmark (0.4.1)
     bigdecimal (3.2.2)
@@ -132,7 +132,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    io-event (1.12.1)
+    io-event (1.13.0)
     jekyll (3.9.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -292,7 +292,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     regexp_parser (2.11.2)
-    rexml (3.4.1)
+    rexml (3.4.2)
     rouge (3.30.0)
     rubocop (1.42.0)
       json (~> 2.3)
@@ -349,4 +349,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.6.9
+   2.7.1
